@@ -16,7 +16,7 @@ jobs:
         with:
           from-branch: main
           to-branch: main
-          access-token: ${{ secrets.IMPLYBOT_GITHUB_TOKEN }}
+          access-token: ${{ secrets.GITHUB_TOKEN }}
           pr-title: 'chore: Upstream sync radix-ui/primitives'
           pr-description: >
             Automated update from upstream repository [radix-ui/primitives](https://github.com/radix-ui/primitives)
