@@ -1,20 +1,20 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { composeEventHandlers } from '@radix-ui/primitive';
-import { useComposedRefs } from '@radix-ui/react-compose-refs';
-import { createCollection } from '@radix-ui/react-collection';
-import { createContextScope } from '@radix-ui/react-context';
-import * as DismissableLayer from '@radix-ui/react-dismissable-layer';
-import { Portal } from '@radix-ui/react-portal';
-import { Presence } from '@radix-ui/react-presence';
-import { Primitive, dispatchDiscreteCustomEvent } from '@radix-ui/react-primitive';
-import { useCallbackRef } from '@radix-ui/react-use-callback-ref';
-import { useControllableState } from '@radix-ui/react-use-controllable-state';
-import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
-import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
+import { composeEventHandlers } from '@implydata/radix-primitive';
+import { useComposedRefs } from '@implydata/radix-react-compose-refs';
+import { createCollection } from '@implydata/radix-react-collection';
+import { createContextScope } from '@implydata/radix-react-context';
+import * as DismissableLayer from '@implydata/radix-react-dismissable-layer';
+import { Portal } from '@implydata/radix-react-portal';
+import { Presence } from '@implydata/radix-react-presence';
+import { Primitive, dispatchDiscreteCustomEvent } from '@implydata/radix-react-primitive';
+import { useCallbackRef } from '@implydata/radix-react-use-callback-ref';
+import { useControllableState } from '@implydata/radix-react-use-controllable-state';
+import { useLayoutEffect } from '@implydata/radix-react-use-layout-effect';
+import { VisuallyHidden } from '@implydata/radix-react-visually-hidden';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 /* -------------------------------------------------------------------------------------------------
  * ToastProvider

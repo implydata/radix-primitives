@@ -1,5 +1,9 @@
 import * as React from 'react';
-import { Collapsible, CollapsibleTrigger, CollapsibleContent } from '@radix-ui/react-collapsible';
+import {
+  Collapsible,
+  CollapsibleTrigger,
+  CollapsibleContent,
+} from '@implydata/radix-react-collapsible';
 
 export default function CollapsiblePage() {
   return (

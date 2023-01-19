@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as Tooltip from '@radix-ui/react-tooltip';
+import * as Tooltip from '@implydata/radix-react-tooltip';
 
 export default function TooltipPage() {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-focus-guards",
+  "name": "@implydata/radix-react-focus-guards",
   "version": "1.0.0",
   "license": "MIT",
   "source": "src/index.ts",

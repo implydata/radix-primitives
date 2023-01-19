@@ -1,17 +1,17 @@
 import * as React from 'react';
-import { composeEventHandlers } from '@radix-ui/primitive';
-import { createContextScope } from '@radix-ui/react-context';
-import { useControllableState } from '@radix-ui/react-use-controllable-state';
-import { useComposedRefs } from '@radix-ui/react-compose-refs';
-import * as PopperPrimitive from '@radix-ui/react-popper';
-import { createPopperScope } from '@radix-ui/react-popper';
-import { Portal as PortalPrimitive } from '@radix-ui/react-portal';
-import { Presence } from '@radix-ui/react-presence';
-import { Primitive } from '@radix-ui/react-primitive';
-import { DismissableLayer } from '@radix-ui/react-dismissable-layer';
+import { composeEventHandlers } from '@implydata/radix-primitive';
+import { createContextScope } from '@implydata/radix-react-context';
+import { useControllableState } from '@implydata/radix-react-use-controllable-state';
+import { useComposedRefs } from '@implydata/radix-react-compose-refs';
+import * as PopperPrimitive from '@implydata/radix-react-popper';
+import { createPopperScope } from '@implydata/radix-react-popper';
+import { Portal as PortalPrimitive } from '@implydata/radix-react-portal';
+import { Presence } from '@implydata/radix-react-presence';
+import { Primitive } from '@implydata/radix-react-primitive';
+import { DismissableLayer } from '@implydata/radix-react-dismissable-layer';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 /* -------------------------------------------------------------------------------------------------
  * HoverCard

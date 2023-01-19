@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-hover-card",
+  "name": "@implydata/radix-react-hover-card",
   "version": "1.0.3",
   "license": "MIT",
   "source": "src/index.ts",
@@ -17,15 +17,15 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@radix-ui/primitive": "workspace:*",
-    "@radix-ui/react-compose-refs": "workspace:*",
-    "@radix-ui/react-context": "workspace:*",
-    "@radix-ui/react-dismissable-layer": "workspace:*",
-    "@radix-ui/react-popper": "workspace:*",
-    "@radix-ui/react-portal": "workspace:*",
-    "@radix-ui/react-presence": "workspace:*",
-    "@radix-ui/react-primitive": "workspace:*",
-    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@implydata/radix-primitive": "workspace:*",
+    "@implydata/radix-react-compose-refs": "workspace:*",
+    "@implydata/radix-react-context": "workspace:*",
+    "@implydata/radix-react-dismissable-layer": "workspace:*",
+    "@implydata/radix-react-popper": "workspace:*",
+    "@implydata/radix-react-portal": "workspace:*",
+    "@implydata/radix-react-presence": "workspace:*",
+    "@implydata/radix-react-primitive": "workspace:*",
+    "@implydata/radix-react-use-controllable-state": "workspace:*"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17.0 || ^18.0",

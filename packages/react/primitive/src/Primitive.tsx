@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Slot } from '@radix-ui/react-slot';
+import { Slot } from '@implydata/radix-react-slot';
 
 const NODES = [
   'a',

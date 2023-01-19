@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { createContextScope } from '@radix-ui/react-context';
-import { useComposedRefs } from '@radix-ui/react-compose-refs';
-import * as DialogPrimitive from '@radix-ui/react-dialog';
-import { createDialogScope } from '@radix-ui/react-dialog';
-import { composeEventHandlers } from '@radix-ui/primitive';
-import { Slottable } from '@radix-ui/react-slot';
+import { createContextScope } from '@implydata/radix-react-context';
+import { useComposedRefs } from '@implydata/radix-react-compose-refs';
+import * as DialogPrimitive from '@implydata/radix-react-dialog';
+import { createDialogScope } from '@implydata/radix-react-dialog';
+import { composeEventHandlers } from '@implydata/radix-primitive';
+import { Slottable } from '@implydata/radix-react-slot';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 /* -------------------------------------------------------------------------------------------------
  * AlertDialog

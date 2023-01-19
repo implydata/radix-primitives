@@ -1,15 +1,15 @@
 import * as React from 'react';
-import { composeEventHandlers } from '@radix-ui/primitive';
-import { createContextScope } from '@radix-ui/react-context';
-import { useControllableState } from '@radix-ui/react-use-controllable-state';
-import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
-import { useComposedRefs } from '@radix-ui/react-compose-refs';
-import { Primitive } from '@radix-ui/react-primitive';
-import { Presence } from '@radix-ui/react-presence';
-import { useId } from '@radix-ui/react-id';
+import { composeEventHandlers } from '@implydata/radix-primitive';
+import { createContextScope } from '@implydata/radix-react-context';
+import { useControllableState } from '@implydata/radix-react-use-controllable-state';
+import { useLayoutEffect } from '@implydata/radix-react-use-layout-effect';
+import { useComposedRefs } from '@implydata/radix-react-compose-refs';
+import { Primitive } from '@implydata/radix-react-primitive';
+import { Presence } from '@implydata/radix-react-presence';
+import { useId } from '@implydata/radix-react-id';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 /* -------------------------------------------------------------------------------------------------
  * Collapsible

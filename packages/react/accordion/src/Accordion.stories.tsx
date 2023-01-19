@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import * as React from 'react';
 import { css, keyframes } from '../../../../stitches.config';
-import * as Accordion from '@radix-ui/react-accordion';
+import * as Accordion from '@implydata/radix-react-accordion';
 
 export default { title: 'Components/Accordion' };
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import { createContextScope } from '@radix-ui/react-context';
-import { useComposedRefs } from '@radix-ui/react-compose-refs';
-import { Slot } from '@radix-ui/react-slot';
+import { createContextScope } from '@implydata/radix-react-context';
+import { useComposedRefs } from '@implydata/radix-react-compose-refs';
+import { Slot } from '@implydata/radix-react-slot';
 
-import type * as Radix from '@radix-ui/react-primitive';
+import type * as Radix from '@implydata/radix-react-primitive';
 
 type SlotProps = Radix.ComponentPropsWithoutRef<typeof Slot>;
 type CollectionElement = HTMLElement;

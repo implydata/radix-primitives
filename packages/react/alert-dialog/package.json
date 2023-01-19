@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-alert-dialog",
+  "name": "@implydata/radix-react-alert-dialog",
   "version": "1.0.2",
   "license": "MIT",
   "source": "src/index.ts",
@@ -17,12 +17,12 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@radix-ui/primitive": "workspace:*",
-    "@radix-ui/react-compose-refs": "workspace:*",
-    "@radix-ui/react-context": "workspace:*",
-    "@radix-ui/react-dialog": "workspace:*",
-    "@radix-ui/react-primitive": "workspace:*",
-    "@radix-ui/react-slot": "workspace:*"
+    "@implydata/radix-primitive": "workspace:*",
+    "@implydata/radix-react-compose-refs": "workspace:*",
+    "@implydata/radix-react-context": "workspace:*",
+    "@implydata/radix-react-dialog": "workspace:*",
+    "@implydata/radix-react-primitive": "workspace:*",
+    "@implydata/radix-react-slot": "workspace:*"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17.0 || ^18.0",

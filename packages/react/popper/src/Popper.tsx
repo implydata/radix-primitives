@@ -10,18 +10,18 @@ import {
   flip,
   size,
 } from '@floating-ui/react-dom';
-import * as ArrowPrimitive from '@radix-ui/react-arrow';
-import { useComposedRefs } from '@radix-ui/react-compose-refs';
-import { createContextScope } from '@radix-ui/react-context';
-import { Primitive } from '@radix-ui/react-primitive';
-import { useCallbackRef } from '@radix-ui/react-use-callback-ref';
-import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
-import { useSize } from '@radix-ui/react-use-size';
+import * as ArrowPrimitive from '@implydata/radix-react-arrow';
+import { useComposedRefs } from '@implydata/radix-react-compose-refs';
+import { createContextScope } from '@implydata/radix-react-context';
+import { Primitive } from '@implydata/radix-react-primitive';
+import { useCallbackRef } from '@implydata/radix-react-use-callback-ref';
+import { useLayoutEffect } from '@implydata/radix-react-use-layout-effect';
+import { useSize } from '@implydata/radix-react-use-size';
 
 import type { Placement, Middleware } from '@floating-ui/react-dom';
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
-import type { Measurable } from '@radix-ui/rect';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
+import type { Measurable } from '@implydata/radix-rect';
 
 const SIDE_OPTIONS = ['top', 'right', 'bottom', 'left'] as const;
 const ALIGN_OPTIONS = ['start', 'center', 'end'] as const;

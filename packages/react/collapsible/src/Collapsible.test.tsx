@@ -2,7 +2,11 @@ import React from 'react';
 import { axe } from 'jest-axe';
 import type { RenderResult } from '@testing-library/react';
 import { render, fireEvent } from '@testing-library/react';
-import { Collapsible, CollapsibleTrigger, CollapsibleContent } from '@radix-ui/react-collapsible';
+import {
+  Collapsible,
+  CollapsibleTrigger,
+  CollapsibleContent,
+} from '@implydata/radix-react-collapsible';
 
 const TRIGGER_TEXT = 'Trigger';
 const CONTENT_TEXT = 'Content';

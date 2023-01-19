@@ -1,19 +1,19 @@
 /// <reference types="resize-observer-browser" />
 
 import * as React from 'react';
-import { Primitive } from '@radix-ui/react-primitive';
-import { Presence } from '@radix-ui/react-presence';
-import { createContextScope } from '@radix-ui/react-context';
-import { useComposedRefs } from '@radix-ui/react-compose-refs';
-import { useCallbackRef } from '@radix-ui/react-use-callback-ref';
-import { useDirection } from '@radix-ui/react-direction';
-import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
-import { clamp } from '@radix-ui/number';
-import { composeEventHandlers } from '@radix-ui/primitive';
+import { Primitive } from '@implydata/radix-react-primitive';
+import { Presence } from '@implydata/radix-react-presence';
+import { createContextScope } from '@implydata/radix-react-context';
+import { useComposedRefs } from '@implydata/radix-react-compose-refs';
+import { useCallbackRef } from '@implydata/radix-react-use-callback-ref';
+import { useDirection } from '@implydata/radix-react-direction';
+import { useLayoutEffect } from '@implydata/radix-react-use-layout-effect';
+import { clamp } from '@implydata/radix-number';
+import { composeEventHandlers } from '@implydata/radix-primitive';
 import { useStateMachine } from './useStateMachine';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 type Direction = 'ltr' | 'rtl';
 type Sizes = {

@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-use-previous",
+  "name": "@implydata/radix-react-use-previous",
   "version": "1.0.0",
   "license": "MIT",
   "source": "src/index.ts",

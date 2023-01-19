@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
+import { VisuallyHidden } from '@implydata/radix-react-visually-hidden';
 
 export default { title: 'Components/VisuallyHidden' };
 

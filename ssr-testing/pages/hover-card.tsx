@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as HoverCard from '@radix-ui/react-hover-card';
+import * as HoverCard from '@implydata/radix-react-hover-card';
 
 export default function HoverCardPage() {
   return (

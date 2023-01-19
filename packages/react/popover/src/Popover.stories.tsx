@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { css, keyframes } from '../../../../stitches.config';
-import { SIDE_OPTIONS, ALIGN_OPTIONS } from '@radix-ui/react-popper';
-import * as Popover from '@radix-ui/react-popover';
+import { SIDE_OPTIONS, ALIGN_OPTIONS } from '@implydata/radix-react-popper';
+import * as Popover from '@implydata/radix-react-popover';
 
 export default { title: 'Components/Popover' };
 

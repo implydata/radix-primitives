@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-compose-refs",
+  "name": "@implydata/radix-react-compose-refs",
   "version": "1.0.0",
   "license": "MIT",
   "source": "src/index.ts",

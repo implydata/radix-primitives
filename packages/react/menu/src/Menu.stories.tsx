@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { css, keyframes } from '../../../../stitches.config';
-import * as Menu from '@radix-ui/react-menu';
+import * as Menu from '@implydata/radix-react-menu';
 import { foodGroups } from '../../../../test-data/foods';
-import { DirectionProvider } from '@radix-ui/react-direction';
+import { DirectionProvider } from '@implydata/radix-react-direction';
 
 export default {
   title: 'Components/Menu',

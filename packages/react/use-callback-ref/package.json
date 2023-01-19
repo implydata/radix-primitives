@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-use-callback-ref",
+  "name": "@implydata/radix-react-use-callback-ref",
   "version": "1.0.0",
   "license": "MIT",
   "source": "src/index.ts",

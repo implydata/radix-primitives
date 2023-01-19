@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-collection",
+  "name": "@implydata/radix-react-collection",
   "version": "1.0.1",
   "license": "MIT",
   "source": "src/index.ts",
@@ -17,10 +17,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@radix-ui/react-compose-refs": "workspace:*",
-    "@radix-ui/react-context": "workspace:*",
-    "@radix-ui/react-primitive": "workspace:*",
-    "@radix-ui/react-slot": "workspace:*"
+    "@implydata/radix-react-compose-refs": "workspace:*",
+    "@implydata/radix-react-context": "workspace:*",
+    "@implydata/radix-react-primitive": "workspace:*",
+    "@implydata/radix-react-slot": "workspace:*"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17.0 || ^18.0",

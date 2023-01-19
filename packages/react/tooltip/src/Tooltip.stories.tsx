@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { css, keyframes } from '../../../../stitches.config';
-import { SIDE_OPTIONS, ALIGN_OPTIONS } from '@radix-ui/react-popper';
-import * as Dialog from '@radix-ui/react-dialog';
-import * as Tooltip from '@radix-ui/react-tooltip';
+import { SIDE_OPTIONS, ALIGN_OPTIONS } from '@implydata/radix-react-popper';
+import * as Dialog from '@implydata/radix-react-dialog';
+import * as Tooltip from '@implydata/radix-react-tooltip';
 
 export default { title: 'Components/Tooltip' };
 

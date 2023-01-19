@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-direction",
+  "name": "@implydata/radix-react-direction",
   "version": "1.0.0",
   "license": "MIT",
   "source": "src/index.ts",

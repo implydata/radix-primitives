@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-aspect-ratio",
+  "name": "@implydata/radix-react-aspect-ratio",
   "version": "1.0.1",
   "license": "MIT",
   "source": "src/index.ts",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@radix-ui/react-primitive": "workspace:*"
+    "@implydata/radix-react-primitive": "workspace:*"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17.0 || ^18.0",

@@ -2,23 +2,23 @@
 
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import { createContextScope } from '@radix-ui/react-context';
-import { composeEventHandlers } from '@radix-ui/primitive';
-import { Primitive, dispatchDiscreteCustomEvent } from '@radix-ui/react-primitive';
-import { useControllableState } from '@radix-ui/react-use-controllable-state';
-import { composeRefs, useComposedRefs } from '@radix-ui/react-compose-refs';
-import { useDirection } from '@radix-ui/react-direction';
-import { Presence } from '@radix-ui/react-presence';
-import { useId } from '@radix-ui/react-id';
-import { createCollection } from '@radix-ui/react-collection';
-import { DismissableLayer } from '@radix-ui/react-dismissable-layer';
-import { usePrevious } from '@radix-ui/react-use-previous';
-import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
-import { useCallbackRef } from '@radix-ui/react-use-callback-ref';
-import * as VisuallyHiddenPrimitive from '@radix-ui/react-visually-hidden';
+import { createContextScope } from '@implydata/radix-react-context';
+import { composeEventHandlers } from '@implydata/radix-primitive';
+import { Primitive, dispatchDiscreteCustomEvent } from '@implydata/radix-react-primitive';
+import { useControllableState } from '@implydata/radix-react-use-controllable-state';
+import { composeRefs, useComposedRefs } from '@implydata/radix-react-compose-refs';
+import { useDirection } from '@implydata/radix-react-direction';
+import { Presence } from '@implydata/radix-react-presence';
+import { useId } from '@implydata/radix-react-id';
+import { createCollection } from '@implydata/radix-react-collection';
+import { DismissableLayer } from '@implydata/radix-react-dismissable-layer';
+import { usePrevious } from '@implydata/radix-react-use-previous';
+import { useLayoutEffect } from '@implydata/radix-react-use-layout-effect';
+import { useCallbackRef } from '@implydata/radix-react-use-callback-ref';
+import * as VisuallyHiddenPrimitive from '@implydata/radix-react-visually-hidden';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 type Orientation = 'vertical' | 'horizontal';
 type Direction = 'ltr' | 'rtl';

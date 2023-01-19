@@ -1,6 +1,6 @@
 import * as React from 'react';
-import * as NavigationMenu from '@radix-ui/react-navigation-menu';
-import { DirectionProvider } from '@radix-ui/react-direction';
+import * as NavigationMenu from '@implydata/radix-react-navigation-menu';
+import { DirectionProvider } from '@implydata/radix-react-direction';
 import { css, keyframes } from '../../../../stitches.config';
 
 export default { title: 'Components/NavigationMenu' };

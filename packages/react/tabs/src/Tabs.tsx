@@ -1,16 +1,16 @@
 import * as React from 'react';
-import { composeEventHandlers } from '@radix-ui/primitive';
-import { createContextScope } from '@radix-ui/react-context';
-import { createRovingFocusGroupScope } from '@radix-ui/react-roving-focus';
-import { Presence } from '@radix-ui/react-presence';
-import { Primitive } from '@radix-ui/react-primitive';
-import * as RovingFocusGroup from '@radix-ui/react-roving-focus';
-import { useDirection } from '@radix-ui/react-direction';
-import { useControllableState } from '@radix-ui/react-use-controllable-state';
-import { useId } from '@radix-ui/react-id';
+import { composeEventHandlers } from '@implydata/radix-primitive';
+import { createContextScope } from '@implydata/radix-react-context';
+import { createRovingFocusGroupScope } from '@implydata/radix-react-roving-focus';
+import { Presence } from '@implydata/radix-react-presence';
+import { Primitive } from '@implydata/radix-react-primitive';
+import * as RovingFocusGroup from '@implydata/radix-react-roving-focus';
+import { useDirection } from '@implydata/radix-react-direction';
+import { useControllableState } from '@implydata/radix-react-use-controllable-state';
+import { useId } from '@implydata/radix-react-id';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 /* -------------------------------------------------------------------------------------------------
  * Tabs

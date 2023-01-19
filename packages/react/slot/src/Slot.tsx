@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { composeRefs } from '@radix-ui/react-compose-refs';
+import { composeRefs } from '@implydata/radix-react-compose-refs';
 
 /* -------------------------------------------------------------------------------------------------
  * Slot

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useId } from '@radix-ui/react-id';
+import { useId } from '@implydata/radix-react-id';
 
 export default function IdPage() {
   return (

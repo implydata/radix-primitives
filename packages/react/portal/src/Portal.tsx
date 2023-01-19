@@ -1,8 +1,8 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import { Primitive } from '@radix-ui/react-primitive';
+import { Primitive } from '@implydata/radix-react-primitive';
 
-import type * as Radix from '@radix-ui/react-primitive';
+import type * as Radix from '@implydata/radix-react-primitive';
 
 /* -------------------------------------------------------------------------------------------------
  * Portal

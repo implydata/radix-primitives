@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-label",
+  "name": "@implydata/radix-react-label",
   "version": "2.0.0",
   "license": "MIT",
   "source": "src/index.ts",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@radix-ui/react-primitive": "workspace:*"
+    "@implydata/radix-react-primitive": "workspace:*"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17.0 || ^18.0",

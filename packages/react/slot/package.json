@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-slot",
+  "name": "@implydata/radix-react-slot",
   "version": "1.0.1",
   "license": "MIT",
   "source": "src/index.ts",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@radix-ui/react-compose-refs": "workspace:*"
+    "@implydata/radix-react-compose-refs": "workspace:*"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17.0 || ^18.0"

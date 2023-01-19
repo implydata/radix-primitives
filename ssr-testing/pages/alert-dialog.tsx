@@ -8,7 +8,7 @@ import {
   AlertDialogDescription,
   AlertDialogAction,
   AlertDialogCancel,
-} from '@radix-ui/react-alert-dialog';
+} from '@implydata/radix-react-alert-dialog';
 
 export default function AlertDialogPage() {
   return (

@@ -1,15 +1,15 @@
 import * as React from 'react';
-import { useComposedRefs } from '@radix-ui/react-compose-refs';
-import { createContextScope } from '@radix-ui/react-context';
-import { composeEventHandlers } from '@radix-ui/primitive';
-import { useControllableState } from '@radix-ui/react-use-controllable-state';
-import { usePrevious } from '@radix-ui/react-use-previous';
-import { useSize } from '@radix-ui/react-use-size';
-import { Presence } from '@radix-ui/react-presence';
-import { Primitive } from '@radix-ui/react-primitive';
+import { useComposedRefs } from '@implydata/radix-react-compose-refs';
+import { createContextScope } from '@implydata/radix-react-context';
+import { composeEventHandlers } from '@implydata/radix-primitive';
+import { useControllableState } from '@implydata/radix-react-use-controllable-state';
+import { usePrevious } from '@implydata/radix-react-use-previous';
+import { useSize } from '@implydata/radix-react-use-size';
+import { Presence } from '@implydata/radix-react-presence';
+import { Primitive } from '@implydata/radix-react-primitive';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 /* -------------------------------------------------------------------------------------------------
  * Checkbox

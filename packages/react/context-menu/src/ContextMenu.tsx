@@ -1,14 +1,14 @@
 import * as React from 'react';
-import { composeEventHandlers } from '@radix-ui/primitive';
-import { createContextScope } from '@radix-ui/react-context';
-import { Primitive } from '@radix-ui/react-primitive';
-import * as MenuPrimitive from '@radix-ui/react-menu';
-import { createMenuScope } from '@radix-ui/react-menu';
-import { useCallbackRef } from '@radix-ui/react-use-callback-ref';
-import { useControllableState } from '@radix-ui/react-use-controllable-state';
+import { composeEventHandlers } from '@implydata/radix-primitive';
+import { createContextScope } from '@implydata/radix-react-context';
+import { Primitive } from '@implydata/radix-react-primitive';
+import * as MenuPrimitive from '@implydata/radix-react-menu';
+import { createMenuScope } from '@implydata/radix-react-menu';
+import { useCallbackRef } from '@implydata/radix-react-use-callback-ref';
+import { useControllableState } from '@implydata/radix-react-use-controllable-state';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 type Direction = 'ltr' | 'rtl';
 type Point = { x: number; y: number };

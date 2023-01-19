@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { createContextScope } from '@radix-ui/react-context';
-import { Primitive } from '@radix-ui/react-primitive';
+import { createContextScope } from '@implydata/radix-react-context';
+import { Primitive } from '@implydata/radix-react-primitive';
 
-import type * as Radix from '@radix-ui/react-primitive';
-import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@implydata/radix-react-context';
 
 /* -------------------------------------------------------------------------------------------------
  * Progress

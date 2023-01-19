@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { useComposedRefs } from '@radix-ui/react-compose-refs';
-import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
+import { useComposedRefs } from '@implydata/radix-react-compose-refs';
+import { useLayoutEffect } from '@implydata/radix-react-use-layout-effect';
 import { useStateMachine } from './useStateMachine';
 
 interface PresenceProps {

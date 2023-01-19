@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { css } from '../../../../stitches.config';
-import { Toggle } from '@radix-ui/react-toggle';
+import { Toggle } from '@implydata/radix-react-toggle';
 
 export default { title: 'Components/Toggle' };
 

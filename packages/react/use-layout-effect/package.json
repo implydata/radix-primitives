@@ -1,5 +1,5 @@
 {
-  "name": "@radix-ui/react-use-layout-effect",
+  "name": "@implydata/radix-react-use-layout-effect",
   "version": "1.0.0",
   "license": "MIT",
   "source": "src/index.ts",

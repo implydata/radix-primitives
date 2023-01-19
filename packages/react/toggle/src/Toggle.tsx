@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { composeEventHandlers } from '@radix-ui/primitive';
-import { useControllableState } from '@radix-ui/react-use-controllable-state';
-import { Primitive } from '@radix-ui/react-primitive';
+import { composeEventHandlers } from '@implydata/radix-primitive';
+import { useControllableState } from '@implydata/radix-react-use-controllable-state';
+import { Primitive } from '@implydata/radix-react-primitive';
 
-import type * as Radix from '@radix-ui/react-primitive';
+import type * as Radix from '@implydata/radix-react-primitive';
 
 /* -------------------------------------------------------------------------------------------------
  * Toggle

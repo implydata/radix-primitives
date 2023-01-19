@@ -2,7 +2,7 @@ import React from 'react';
 import { axe } from 'jest-axe';
 import { RenderResult } from '@testing-library/react';
 import { render, fireEvent } from '@testing-library/react';
-import * as AlertDialog from '@radix-ui/react-alert-dialog';
+import * as AlertDialog from '@implydata/radix-react-alert-dialog';
 
 const OPEN_TEXT = 'Open';
 const CANCEL_TEXT = 'Cancel';
