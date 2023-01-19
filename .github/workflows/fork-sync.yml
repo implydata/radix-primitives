@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Sync from upstream
-        uses: vitornovictor/fork-news@v1
+        uses: vitornovictor/fork-news@v1.0.0
         with:
           from-branch: main
           to-branch: main
