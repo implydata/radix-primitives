@@ -1,0 +1,22 @@
+name: 'Sync Fork'
+
+on:
+  workflow_dispatch: # Manual trigger
+
+  schedule:
+    - cron: '0 0 * * 1' # Monday morning at 0:00
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Sync from upstream
+        uses: vitornovictor/fork-news@v1
+        with:
+          from-branch: main
+          to-branch: main
+          access-token: ${{ secrets.IMPLYBOT_GITHUB_TOKEN }}
+          pr-title: 'chore: Upstream sync radix-ui/primitives'
+          pr-description: >
+            Automated update from upstream repository [radix-ui/primitives](https://github.com/radix-ui/primitives)
