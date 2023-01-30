@@ -12,11 +12,13 @@ jobs:
 
     steps:
       - name: Sync from upstream
-        uses: vitornovictor/fork-news@v1.0.0
+        uses: jgoz/fork-sync@master
         with:
-          from-branch: main
-          to-branch: main
-          access-token: ${{ secrets.GITHUB_TOKEN }}
-          pr-title: 'chore: Upstream sync radix-ui/primitives'
-          pr-description: >
+          owner: radix-ui
+          repo: primitives
+          head: main
+          base: main
+          auto_merge: false
+          pr_title: 'chore: Upstream sync radix-ui/primitives'
+          pr_message: >
             Automated update from upstream repository [radix-ui/primitives](https://github.com/radix-ui/primitives)
