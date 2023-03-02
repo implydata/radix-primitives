@@ -26,8 +26,9 @@ import type { Measurable } from '@implydata/radix-rect';
 const SIDE_OPTIONS = ['top', 'right', 'bottom', 'left'] as const;
 const ALIGN_OPTIONS = ['start', 'center', 'end'] as const;
 
-type Side = typeof SIDE_OPTIONS[number];
-type Align = typeof ALIGN_OPTIONS[number];
+export type Side = typeof SIDE_OPTIONS[number];
+export type Align = typeof ALIGN_OPTIONS[number];
+export type { Placement };
 
 /* -------------------------------------------------------------------------------------------------
  * Popper
@@ -127,6 +128,7 @@ interface PopperContentProps extends PrimitiveDivProps {
   sticky?: 'partial' | 'always';
   hideWhenDetached?: boolean;
   avoidCollisions?: boolean | 'off' | 'flip' | 'shift' | 'auto';
+  fallbackPlacements?: Placement[];
   onPlaced?: () => void;
 }
 
@@ -144,6 +146,7 @@ const PopperContent = React.forwardRef<PopperContentElement, PopperContentProps>
       sticky = 'partial',
       hideWhenDetached = false,
       avoidCollisions = 'auto',
+      fallbackPlacements,
       onPlaced,
       ...contentProps
     } = props;
@@ -196,7 +199,7 @@ const PopperContent = React.forwardRef<PopperContentElement, PopperContentProps>
           : undefined,
         arrow ? floatingUIarrow({ element: arrow, padding: arrowPadding }) : undefined,
         avoidCollisionsMode === 'auto' || avoidCollisionsMode === 'flip'
-          ? flip({ ...detectOverflowOptions })
+          ? flip({ fallbackPlacements, ...detectOverflowOptions })
           : undefined,
         size({
           ...detectOverflowOptions,
