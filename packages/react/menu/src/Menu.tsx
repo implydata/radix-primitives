@@ -755,7 +755,8 @@ type CheckedState = boolean | 'indeterminate';
 
 interface MenuCheckboxItemProps extends MenuItemProps {
   checked?: CheckedState;
-  onCheckedChange?: (checked: CheckedState) => void;
+  // `onCheckedChange` can never be called with `"indeterminate"` from the inside
+  onCheckedChange?: (checked: boolean) => void;
 }
 
 const MenuCheckboxItem = React.forwardRef<MenuCheckboxItemElement, MenuCheckboxItemProps>(
@@ -1189,7 +1190,11 @@ const MenuSubContent = React.forwardRef<MenuSubContentElement, MenuSubContentPro
                 // on pointer interaction.
                 if (event.target !== subContext.trigger) context.onOpenChange(false);
               })}
-              onEscapeKeyDown={composeEventHandlers(props.onEscapeKeyDown, rootContext.onClose)}
+              onEscapeKeyDown={composeEventHandlers(props.onEscapeKeyDown, (event) => {
+                rootContext.onClose();
+                // ensure pressing escape in submenu doesn't escape full screen mode
+                event.preventDefault();
+              })}
               onKeyDown={composeEventHandlers(props.onKeyDown, (event) => {
                 // Submenu key events bubble through portals. We only care about keys in this menu.
                 const isKeyDownInside = event.currentTarget.contains(event.target as HTMLElement);
