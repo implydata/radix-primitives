@@ -3,13 +3,13 @@ name: 'Publish Release Candidate'
 on:
   workflow_dispatch: # Manual trigger
 
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - '**/package.json'
-      - '.github/**'
-      - '.yarn/versions/**'
+  # push:
+  #   branches:
+  #     - main
+  #   paths-ignore:
+  #     - '**/package.json'
+  #     - '.github/**'
+  #     - '.yarn/versions/**'
 
 jobs:
   publish-rc:
