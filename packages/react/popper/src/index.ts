@@ -19,4 +19,7 @@ export type {
   PopperAnchorProps,
   PopperContentProps,
   PopperArrowProps,
+  Align,
+  Side,
+  Placement,
 } from './Popper';
