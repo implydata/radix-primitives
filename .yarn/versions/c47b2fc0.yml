@@ -1,13 +1,13 @@
 releases:
-  "@radix-ui/react-context-menu": patch
-  "@radix-ui/react-dropdown-menu": patch
-  "@radix-ui/react-hover-card": patch
-  "@radix-ui/react-menu": patch
-  "@radix-ui/react-menubar": patch
-  "@radix-ui/react-popover": patch
-  "@radix-ui/react-popper": patch
-  "@radix-ui/react-select": patch
-  "@radix-ui/react-tooltip": patch
+  "@implydata/radix-react-context-menu": patch
+  "@implydata/radix-react-dropdown-menu": patch
+  "@implydata/radix-react-hover-card": patch
+  "@implydata/radix-react-menu": patch
+  "@implydata/radix-react-menubar": patch
+  "@implydata/radix-react-popover": patch
+  "@implydata/radix-react-popper": patch
+  "@implydata/radix-react-select": patch
+  "@implydata/radix-react-tooltip": patch
 
 declined:
   - primitives

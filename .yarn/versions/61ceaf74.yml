@@ -1,5 +1,5 @@
 releases:
-  "@radix-ui/react-slider": patch
+  "@implydata/radix-react-slider": patch
 
 declined:
   - primitives
