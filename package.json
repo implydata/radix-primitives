@@ -24,6 +24,7 @@
     "build:packages": "parcel build 'packages/*/*/' --no-cache --no-optimize && yarn build:fix-type-defs",
     "build:fix-type-defs": "node ./scripts/fix-type-defs-imports",
     "build:cleanup": "mv tsconfig.json tsconfig.production.json && mv tsconfig.tmp.json tsconfig.json",
+    "publish:current": "yarn clean && yarn build && yarn workspaces foreach -pv --exclude primitives --exclude ssr-testing npm publish --tolerate-republish --access public",
     "publish:stable": "yarn bump:stable && yarn clean && yarn build && yarn workspaces foreach -pv --exclude primitives --exclude ssr-testing npm publish --tolerate-republish --access public",
     "publish:next": "yarn bump:next && yarn clean && yarn build && yarn workspaces foreach -pv --exclude primitives --exclude ssr-testing npm publish --tolerate-republish --access public --tag next",
     "clean": "yarn workspaces foreach -pv --exclude primitives --exclude ssr-testing run clean",
