@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Sync from upstream
-        uses: jgoz/fork-sync@v1.8.1
+        uses: jgoz/fork-sync@v1.8
         with:
           owner: radix-ui
           repo: primitives
