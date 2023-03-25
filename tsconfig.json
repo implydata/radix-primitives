@@ -24,6 +24,7 @@
       "@implydata/radix-react-dropdown-menu": ["packages/react/dropdown-menu/src"],
       "@implydata/radix-react-focus-guards": ["packages/react/focus-guards/src"],
       "@implydata/radix-react-focus-scope": ["./packages/react/focus-scope/src"],
+      "@implydata/radix-react-form": ["./packages/react/form/src"],
       "@implydata/radix-react-hover-card": ["./packages/react/hover-card/src"],
       "@implydata/radix-react-id": ["./packages/react/id/src"],
       "@implydata/radix-react-label": ["./packages/react/label/src"],

@@ -1,6 +1,6 @@
 {
-  "name": "@implydata/radix-react-dialog",
-  "version": "1.0.3",
+  "name": "@implydata/radix-react-form",
+  "version": "0.0.2",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/index.js",
@@ -20,17 +20,9 @@
     "@implydata/radix-primitive": "workspace:*",
     "@implydata/radix-react-compose-refs": "workspace:*",
     "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-dismissable-layer": "workspace:*",
-    "@implydata/radix-react-focus-guards": "workspace:*",
-    "@implydata/radix-react-focus-scope": "workspace:*",
     "@implydata/radix-react-id": "workspace:*",
-    "@implydata/radix-react-portal": "workspace:*",
-    "@implydata/radix-react-presence": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*",
-    "@implydata/radix-react-slot": "workspace:*",
-    "@implydata/radix-react-use-controllable-state": "workspace:*",
-    "aria-hidden": "^1.1.1",
-    "react-remove-scroll": "2.5.5"
+    "@implydata/radix-react-label": "workspace:*",
+    "@implydata/radix-react-primitive": "workspace:*"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17.0 || ^18.0",

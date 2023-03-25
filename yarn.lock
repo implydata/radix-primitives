@@ -2026,6 +2026,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@implydata/radix-react-form@workspace:packages/react/form":
+  version: 0.0.0-use.local
+  resolution: "@implydata/radix-react-form@workspace:packages/react/form"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@implydata/radix-primitive": "workspace:*"
+    "@implydata/radix-react-compose-refs": "workspace:*"
+    "@implydata/radix-react-context": "workspace:*"
+    "@implydata/radix-react-id": "workspace:*"
+    "@implydata/radix-react-label": "workspace:*"
+    "@implydata/radix-react-primitive": "workspace:*"
+  peerDependencies:
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  languageName: unknown
+  linkType: soft
+
 "@implydata/radix-react-hover-card@workspace:packages/react/hover-card":
   version: 0.0.0-use.local
   resolution: "@implydata/radix-react-hover-card@workspace:packages/react/hover-card"
@@ -2057,7 +2074,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@implydata/radix-react-label@workspace:packages/react/label":
+"@implydata/radix-react-label@workspace:*, @implydata/radix-react-label@workspace:packages/react/label":
   version: 0.0.0-use.local
   resolution: "@implydata/radix-react-label@workspace:packages/react/label"
   dependencies:
