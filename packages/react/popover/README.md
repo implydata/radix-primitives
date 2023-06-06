@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-popover
+$ yarn add @implydata/radix-react-popover
 # or
-$ npm install @radix-ui/react-popover
+$ npm install @implydata/radix-react-popover
 ```
 
 ## Usage

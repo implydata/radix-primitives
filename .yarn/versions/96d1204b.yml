@@ -1,0 +1,5 @@
+releases:
+  "@implydata/radix-react-select": major
+
+declined:
+  - primitives

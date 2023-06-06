@@ -2,7 +2,7 @@ import * as React from 'react';
 import { VisuallyHidden } from '@implydata/radix-react-visually-hidden';
 import { Announce } from '@implydata/radix-react-announce';
 
-export default { title: 'Components/Announce' };
+export default { title: 'Utilities/Announce' };
 
 export function Basic() {
   const [count, setCount] = React.useState(1);

@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-announce
+$ yarn add @implydata/radix-react-announce
 # or
-$ npm install @radix-ui/react-announce
+$ npm install @implydata/radix-react-announce
 ```
 
 ## Usage

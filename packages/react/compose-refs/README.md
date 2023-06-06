@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-compose-refs
+$ yarn add @implydata/radix-react-compose-refs
 # or
-$ npm install @radix-ui/react-compose-refs
+$ npm install @implydata/radix-react-compose-refs
 ```
 
 ## Usage

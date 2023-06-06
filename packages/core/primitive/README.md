@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/primitive
+$ yarn add @implydata/radix-primitive
 # or
-$ npm install @radix-ui/primitive
+$ npm install @implydata/radix-primitive
 ```
 
 ## Usage

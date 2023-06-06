@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-roving-focus
+$ yarn add @implydata/radix-react-roving-focus
 # or
-$ npm install @radix-ui/react-roving-focus
+$ npm install @implydata/radix-react-roving-focus
 ```
 
 ## Usage

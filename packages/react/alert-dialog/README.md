@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-alert-dialog
+$ yarn add @implydata/radix-react-alert-dialog
 # or
-$ npm install @radix-ui/react-alert-dialog
+$ npm install @implydata/radix-react-alert-dialog
 ```
 
 ## Usage

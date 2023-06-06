@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-use-callback-ref
+$ yarn add @implydata/radix-react-use-callback-ref
 # or
-$ npm install @radix-ui/react-use-callback-ref
+$ npm install @implydata/radix-react-use-callback-ref
 ```
 
 ## Usage

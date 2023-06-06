@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-toggle
+$ yarn add @implydata/radix-react-toggle
 # or
-$ npm install @radix-ui/react-toggle
+$ npm install @implydata/radix-react-toggle
 ```
 
 ## Usage

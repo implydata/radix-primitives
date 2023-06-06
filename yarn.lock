@@ -1655,31 +1655,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@floating-ui/core@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "@floating-ui/core@npm:1.2.2"
-  checksum: 0728efcb3f57c0bbeaf940e3ca8dfbecb659afec8943dff79169b8191b8c4aa14b54a33dc66599e624dfa791920010ebd9f860cfa7f47df94ad75b32c1e44883
+"@floating-ui/core@npm:^1.2.6":
+  version: 1.2.6
+  resolution: "@floating-ui/core@npm:1.2.6"
+  checksum: e4aa96c435277f1720d4bc939e17a79b1e1eebd589c20b622d3c646a5273590ff889b8c6e126f7be61873cf8c4d7db7d418895986ea19b8b0d0530de32504c3a
   languageName: node
   linkType: hard
 
-"@floating-ui/dom@npm:^1.2.1":
-  version: 1.2.2
-  resolution: "@floating-ui/dom@npm:1.2.2"
+"@floating-ui/dom@npm:^1.2.7":
+  version: 1.2.9
+  resolution: "@floating-ui/dom@npm:1.2.9"
   dependencies:
-    "@floating-ui/core": ^1.2.2
-  checksum: e8946826221d5ca6e46adee8f1d6e3206a27f715d19f7ea8108b64d1be8d856144f857548d5d82058bf87566fa8c057d19fc5d8dcbb9a23bf33098ab89435ffa
+    "@floating-ui/core": ^1.2.6
+  checksum: 16ae5e05a41c2ca16d51579d12729ca9d346241319f68ce5678f5fbeb9c4f9a16176c95089bbd7a0eb37c6ed90e5fd55a310ffc9948af7c841d5b8bfa0afe1b8
   languageName: node
   linkType: hard
 
-"@floating-ui/react-dom@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@floating-ui/react-dom@npm:1.3.0"
+"@floating-ui/react-dom@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@floating-ui/react-dom@npm:2.0.0"
   dependencies:
-    "@floating-ui/dom": ^1.2.1
+    "@floating-ui/dom": ^1.2.7
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: ce0ad3e3bbe43cfd15a6a0d5cccede02175c845862bfab52027995ab99c6b29630180dc7d146f76ebb34730f90a6ab9bf193c8984fe8d7f56062308e4ca98f77
+  checksum: c5dd02b7babf9c26d5e11b8ebe58411131b37844f7d6362a767cd1eedfb506ca6db3228fb192e0a5822c9289a5b500e2ef31e069dce28a0fbec4722f22bcdd95
   languageName: node
   linkType: hard
 
@@ -1747,8 +1747,15 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-visually-hidden": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1767,8 +1774,15 @@ __metadata:
     "@implydata/radix-react-primitive": "workspace:*"
     "@implydata/radix-react-use-controllable-state": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1784,8 +1798,15 @@ __metadata:
     "@implydata/radix-react-primitive": "workspace:*"
     "@implydata/radix-react-slot": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1798,8 +1819,15 @@ __metadata:
     "@implydata/radix-react-primitive": "workspace:*"
     "@implydata/radix-react-use-layout-effect": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1810,8 +1838,15 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-primitive": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1822,8 +1857,15 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-primitive": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1837,8 +1879,15 @@ __metadata:
     "@implydata/radix-react-use-callback-ref": "workspace:*"
     "@implydata/radix-react-use-layout-effect": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1856,8 +1905,15 @@ __metadata:
     "@implydata/radix-react-use-previous": "workspace:*"
     "@implydata/radix-react-use-size": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1875,8 +1931,15 @@ __metadata:
     "@implydata/radix-react-use-controllable-state": "workspace:*"
     "@implydata/radix-react-use-layout-effect": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1890,8 +1953,15 @@ __metadata:
     "@implydata/radix-react-primitive": "workspace:*"
     "@implydata/radix-react-slot": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1901,7 +1971,11 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.13.10
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1917,8 +1991,15 @@ __metadata:
     "@implydata/radix-react-use-callback-ref": "workspace:*"
     "@implydata/radix-react-use-controllable-state": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1928,7 +2009,11 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.13.10
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1952,8 +2037,15 @@ __metadata:
     aria-hidden: ^1.1.1
     react-remove-scroll: 2.5.5
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1963,7 +2055,11 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.13.10
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1979,8 +2075,15 @@ __metadata:
     "@implydata/radix-react-use-escape-keydown": "workspace:*"
     react-remove-scroll: 2.5.5
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -1997,8 +2100,15 @@ __metadata:
     "@implydata/radix-react-primitive": "workspace:*"
     "@implydata/radix-react-use-controllable-state": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2008,7 +2118,11 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.13.10
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2021,8 +2135,15 @@ __metadata:
     "@implydata/radix-react-primitive": "workspace:*"
     "@implydata/radix-react-use-callback-ref": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2038,8 +2159,15 @@ __metadata:
     "@implydata/radix-react-label": "workspace:*"
     "@implydata/radix-react-primitive": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2058,8 +2186,15 @@ __metadata:
     "@implydata/radix-react-primitive": "workspace:*"
     "@implydata/radix-react-use-controllable-state": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2070,7 +2205,11 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-use-layout-effect": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2081,8 +2220,15 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-primitive": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2110,8 +2256,15 @@ __metadata:
     aria-hidden: ^1.1.1
     react-remove-scroll: 2.5.5
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2131,8 +2284,15 @@ __metadata:
     "@implydata/radix-react-roving-focus": "workspace:*"
     "@implydata/radix-react-use-controllable-state": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2156,8 +2316,15 @@ __metadata:
     "@implydata/radix-react-use-previous": "workspace:*"
     "@implydata/radix-react-visually-hidden": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2182,8 +2349,15 @@ __metadata:
     aria-hidden: ^1.1.1
     react-remove-scroll: 2.5.5
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2192,7 +2366,7 @@ __metadata:
   resolution: "@implydata/radix-react-popper@workspace:packages/react/popper"
   dependencies:
     "@babel/runtime": ^7.13.10
-    "@floating-ui/react-dom": ^1.3.0
+    "@floating-ui/react-dom": ^2.0.0
     "@implydata/radix-react-arrow": "workspace:*"
     "@implydata/radix-react-compose-refs": "workspace:*"
     "@implydata/radix-react-context": "workspace:*"
@@ -2203,8 +2377,15 @@ __metadata:
     "@implydata/radix-react-use-size": "workspace:*"
     "@implydata/radix-rect": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2215,8 +2396,15 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-primitive": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2228,8 +2416,15 @@ __metadata:
     "@implydata/radix-react-compose-refs": "workspace:*"
     "@implydata/radix-react-use-layout-effect": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2241,8 +2436,15 @@ __metadata:
     "@implydata/radix-react-slot": "workspace:*"
     "@testing-library/react": ^10.4.8
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2254,8 +2456,15 @@ __metadata:
     "@implydata/radix-react-context": "workspace:*"
     "@implydata/radix-react-primitive": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2275,8 +2484,15 @@ __metadata:
     "@implydata/radix-react-use-previous": "workspace:*"
     "@implydata/radix-react-use-size": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2295,8 +2511,15 @@ __metadata:
     "@implydata/radix-react-use-callback-ref": "workspace:*"
     "@implydata/radix-react-use-controllable-state": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2316,8 +2539,15 @@ __metadata:
     "@implydata/radix-react-use-layout-effect": "workspace:*"
     "@types/resize-observer-browser": ^0.1.4
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2348,8 +2578,15 @@ __metadata:
     aria-hidden: ^1.1.1
     react-remove-scroll: 2.5.5
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2360,8 +2597,15 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-primitive": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2384,8 +2628,15 @@ __metadata:
     "@types/form-serialize": ^0
     form-serialize: ^0.7.2
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2396,7 +2647,11 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-compose-refs": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2413,8 +2668,15 @@ __metadata:
     "@implydata/radix-react-use-previous": "workspace:*"
     "@implydata/radix-react-use-size": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2432,8 +2694,15 @@ __metadata:
     "@implydata/radix-react-roving-focus": "workspace:*"
     "@implydata/radix-react-use-controllable-state": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2455,8 +2724,15 @@ __metadata:
     "@implydata/radix-react-use-layout-effect": "workspace:*"
     "@implydata/radix-react-visually-hidden": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2473,8 +2749,15 @@ __metadata:
     "@implydata/radix-react-toggle": "workspace:*"
     "@implydata/radix-react-use-controllable-state": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2487,8 +2770,15 @@ __metadata:
     "@implydata/radix-react-primitive": "workspace:*"
     "@implydata/radix-react-use-controllable-state": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2505,8 +2795,15 @@ __metadata:
     "@implydata/radix-react-separator": "workspace:*"
     "@implydata/radix-react-toggle-group": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2528,8 +2825,15 @@ __metadata:
     "@implydata/radix-react-use-controllable-state": "workspace:*"
     "@implydata/radix-react-visually-hidden": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2539,7 +2843,11 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.13.10
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2550,7 +2858,11 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-use-callback-ref": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2561,7 +2873,11 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-use-callback-ref": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2571,7 +2887,11 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.13.10
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2581,7 +2901,11 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.13.10
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2592,7 +2916,11 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-rect": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2604,7 +2932,11 @@ __metadata:
     "@implydata/radix-react-use-layout-effect": "workspace:*"
     "@types/resize-observer-browser": ^0.1.4
   peerDependencies:
+    "@types/react": "*"
     react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2615,8 +2947,15 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@implydata/radix-react-primitive": "workspace:*"
   peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
     react: ^16.8 || ^17.0 || ^18.0
     react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2627,6 +2966,20 @@ __metadata:
     "@babel/runtime": ^7.13.10
   languageName: unknown
   linkType: soft
+
+"@isaacs/cliui@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "@isaacs/cliui@npm:8.0.2"
+  dependencies:
+    string-width: ^5.1.2
+    string-width-cjs: "npm:string-width@^4.2.0"
+    strip-ansi: ^7.0.1
+    strip-ansi-cjs: "npm:strip-ansi@^6.0.1"
+    wrap-ansi: ^8.1.0
+    wrap-ansi-cjs: "npm:wrap-ansi@^7.0.0"
+  checksum: 4a473b9b32a7d4d3cfb7a614226e555091ff0c5a29a1734c28c72a182c2f6699b26fc6b5c2131dfd841e86b185aea714c72201d7c98c2fba5f17709333a67aeb
+  languageName: node
+  linkType: hard
 
 "@istanbuljs/load-nyc-config@npm:^1.0.0":
   version: 1.1.0
@@ -3911,6 +4264,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pkgjs/parseargs@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "@pkgjs/parseargs@npm:0.11.0"
+  checksum: 6ad6a00fc4f2f2cfc6bff76fb1d88b8ee20bc0601e18ebb01b6d4be583733a860239a521a7fbca73b612e66705078809483549d2b18f370eb346c5155c8e4a0f
+  languageName: node
+  linkType: hard
+
 "@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.3":
   version: 0.5.5
   resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.5"
@@ -4995,6 +5355,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/fs-extra@npm:^11":
+  version: 11.0.1
+  resolution: "@types/fs-extra@npm:11.0.1"
+  dependencies:
+    "@types/jsonfile": "*"
+    "@types/node": "*"
+  checksum: 3e930346e5d84f419deb8ced1c582beef8cb20d0bd8a0eb145a37d75bab0572a1895f0e48a0d681d386b3a58b9a992b2d2acecc464bcaec2548f53ea00718651
+  languageName: node
+  linkType: hard
+
 "@types/glob@npm:*, @types/glob@npm:^7.1.1":
   version: 7.2.0
   resolution: "@types/glob@npm:7.2.0"
@@ -5093,6 +5463,15 @@ __metadata:
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
   checksum: e60b153664572116dfea673c5bda7778dbff150498f44f998e34b5886d8afc47f16799280e4b6e241c0472aef1bc36add771c569c68fc5125fc2ae519a3eb9ac
+  languageName: node
+  linkType: hard
+
+"@types/jsonfile@npm:*":
+  version: 6.1.1
+  resolution: "@types/jsonfile@npm:6.1.1"
+  dependencies:
+    "@types/node": "*"
+  checksum: 0f8fe0a9221a00e8413cffba723dfe16553868724b830237256fb0052ecd5cac96498189d1235a001cfa815f352008261c9ceb373f0aa58227f891e0c7a12c4d
   languageName: node
   linkType: hard
 
@@ -6142,6 +6521,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ansi-styles@npm:^6.1.0":
+  version: 6.2.1
+  resolution: "ansi-styles@npm:6.2.1"
+  checksum: ef940f2f0ced1a6347398da88a91da7930c33ecac3c77b72c5905f8b8fe402c52e6fde304ff5347f616e27a742da3f1dc76de98f6866c69251ad0b07a66776d9
+  languageName: node
+  linkType: hard
+
 "ansi-to-html@npm:^0.6.11":
   version: 0.6.15
   resolution: "ansi-to-html@npm:0.6.15"
@@ -6918,6 +7304,15 @@ __metadata:
     balanced-match: ^1.0.0
     concat-map: 0.0.1
   checksum: faf34a7bb0c3fcf4b59c7808bc5d2a96a40988addf2e7e09dfbb67a2251800e0d14cd2bfc1aa79174f2f5095c54ff27f46fb1289fe2d77dac755b5eb3434cc07
+  languageName: node
+  linkType: hard
+
+"brace-expansion@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "brace-expansion@npm:2.0.1"
+  dependencies:
+    balanced-match: ^1.0.0
+  checksum: a61e7cd2e8a8505e9f0036b3b6108ba5e926b4b55089eeb5550cd04a471fe216c96d4fe7e4c7f995c728c554ae20ddfc4244cad10aef255e72b62930afd233d1
   languageName: node
   linkType: hard
 
@@ -8697,6 +9092,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eastasianwidth@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "eastasianwidth@npm:0.2.0"
+  checksum: 7d00d7cd8e49b9afa762a813faac332dee781932d6f2c848dc348939c4253f1d4564341b7af1d041853bc3f32c2ef141b58e0a4d9862c17a7f08f68df1e0f1ed
+  languageName: node
+  linkType: hard
+
 "ecc-jsbn@npm:~0.1.1":
   version: 0.1.2
   resolution: "ecc-jsbn@npm:0.1.2"
@@ -9928,6 +10330,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"foreground-child@npm:^3.1.0":
+  version: 3.1.1
+  resolution: "foreground-child@npm:3.1.1"
+  dependencies:
+    cross-spawn: ^7.0.0
+    signal-exit: ^4.0.1
+  checksum: 139d270bc82dc9e6f8bc045fe2aae4001dc2472157044fdfad376d0a3457f77857fa883c1c8b21b491c6caade9a926a4bed3d3d2e8d3c9202b151a4cbbd0bcd5
+  languageName: node
+  linkType: hard
+
 "forever-agent@npm:~0.6.1":
   version: 0.6.1
   resolution: "forever-agent@npm:0.6.1"
@@ -10067,6 +10479,17 @@ __metadata:
     path-is-absolute: ^1.0.0
     rimraf: ^2.2.8
   checksum: 6edfd65fc813baa27f1603778c0f5ec11f8c5006a20b920437813ee2023eba18aeec8bef1c89b2e6c84f9fc90fdc7c916f4a700466c8c69d22a35d018f2570f0
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^11.1.1":
+  version: 11.1.1
+  resolution: "fs-extra@npm:11.1.1"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: fb883c68245b2d777fbc1f2082c9efb084eaa2bbf9fddaa366130d196c03608eebef7fb490541276429ee1ca99f317e2d73e96f5ca0999eefedf5a624ae1edfd
   languageName: node
   linkType: hard
 
@@ -10371,6 +10794,21 @@ fsevents@~2.1.2:
   version: 0.4.1
   resolution: "glob-to-regexp@npm:0.4.1"
   checksum: e795f4e8f06d2a15e86f76e4d92751cf8bbfcf0157cea5c2f0f35678a8195a750b34096b1256e436f0cebc1883b5ff0888c47348443e69546a5a87f9e1eb1167
+  languageName: node
+  linkType: hard
+
+"glob@npm:^10.2.2":
+  version: 10.2.6
+  resolution: "glob@npm:10.2.6"
+  dependencies:
+    foreground-child: ^3.1.0
+    jackspeak: ^2.0.3
+    minimatch: ^9.0.1
+    minipass: ^5.0.0 || ^6.0.2
+    path-scurry: ^1.7.0
+  bin:
+    glob: dist/cjs/src/bin.js
+  checksum: 94c5964bfa9df95207a69a3bd9b07b99ea7b5ba1f36dd73a8914378cee9436a205b9b5bdff58872abc238684ea7f4b4936e932155b8885250818bcc8d5321ddf
   languageName: node
   linkType: hard
 
@@ -11785,6 +12223,19 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"jackspeak@npm:^2.0.3":
+  version: 2.2.1
+  resolution: "jackspeak@npm:2.2.1"
+  dependencies:
+    "@isaacs/cliui": ^8.0.2
+    "@pkgjs/parseargs": ^0.11.0
+  dependenciesMeta:
+    "@pkgjs/parseargs":
+      optional: true
+  checksum: e29291c0d0f280a063fa18fbd1e891ab8c2d7519fd34052c0ebde38538a15c603140d60c2c7f432375ff7ee4c5f1c10daa8b2ae19a97c3d4affe308c8360c1df
+  languageName: node
+  linkType: hard
+
 "jest-axe@npm:^6.0.0":
   version: 6.0.0
   resolution: "jest-axe@npm:6.0.0"
@@ -12971,6 +13422,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"lru-cache@npm:^9.1.1":
+  version: 9.1.2
+  resolution: "lru-cache@npm:9.1.2"
+  checksum: d3415634be3908909081fc4c56371a8d562d9081eba70543d86871b978702fffd0e9e362b83921b27a29ae2b37b90f55675aad770a54ac83bb3e4de5049d4b15
+  languageName: node
+  linkType: hard
+
 "lz-string@npm:^1.4.4":
   version: 1.4.4
   resolution: "lz-string@npm:1.4.4"
@@ -13363,6 +13821,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"minimatch@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "minimatch@npm:9.0.1"
+  dependencies:
+    brace-expansion: ^2.0.1
+  checksum: 97f5f5284bb57dc65b9415dec7f17a0f6531a33572193991c60ff18450dcfad5c2dad24ffeaf60b5261dccd63aae58cc3306e2209d57e7f88c51295a532d8ec3
+  languageName: node
+  linkType: hard
+
 "minimist@npm:^1.1.3, minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:^1.2.6":
   version: 1.2.6
   resolution: "minimist@npm:1.2.6"
@@ -13427,6 +13894,13 @@ fsevents@~2.1.2:
   dependencies:
     yallist: ^4.0.0
   checksum: 57a04041413a3531a65062452cb5175f93383ef245d6f4a2961d34386eb9aa8ac11ac7f16f791f5e8bbaf1dfb1ef01596870c88e8822215db57aa591a5bb0a77
+  languageName: node
+  linkType: hard
+
+"minipass@npm:^5.0.0 || ^6.0.2":
+  version: 6.0.2
+  resolution: "minipass@npm:6.0.2"
+  checksum: d140b91f4ab2e5ce5a9b6c468c0e82223504acc89114c1a120d4495188b81fedf8cade72a9f4793642b4e66672f990f1e0d902dd858485216a07cd3c8a62fac9
   languageName: node
   linkType: hard
 
@@ -14593,6 +15067,16 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"path-scurry@npm:^1.7.0":
+  version: 1.9.2
+  resolution: "path-scurry@npm:1.9.2"
+  dependencies:
+    lru-cache: ^9.1.1
+    minipass: ^5.0.0 || ^6.0.2
+  checksum: 92888dfb68e285043c6d3291c8e971d5d2bc2f5082f4d7b5392896f34be47024c9d0a8b688dd7ae6d125acc424699195474927cb4f00049a9b1ec7c4256fa8e0
+  languageName: node
+  linkType: hard
+
 "path-to-regexp@npm:0.1.7":
   version: 0.1.7
   resolution: "path-to-regexp@npm:0.1.7"
@@ -15039,6 +15523,7 @@ fsevents@~2.1.2:
     "@testing-library/user-event": ^14.1.0
     "@types/babel__template": ^7.4.1
     "@types/eslint": ^7.28.0
+    "@types/fs-extra": ^11
     "@types/jest": ^27.4.1
     "@types/jest-axe": ^3.5.3
     "@types/react": ^18.0.5
@@ -15058,6 +15543,8 @@ fsevents@~2.1.2:
     eslint-plugin-jsx-a11y: ^6.3.1
     eslint-plugin-react: ^7.24.0
     eslint-plugin-react-hooks: ^4.2.0
+    fs-extra: ^11.1.1
+    glob: ^10.2.2
     husky: ^4.3.6
     jest: ^27.5.1
     jest-axe: ^6.0.0
@@ -16427,6 +16914,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"signal-exit@npm:^4.0.1":
+  version: 4.0.2
+  resolution: "signal-exit@npm:4.0.2"
+  checksum: 41f5928431cc6e91087bf0343db786a6313dd7c6fd7e551dbc141c95bb5fb26663444fd9df8ea47c5d7fc202f60aa7468c3162a9365cbb0615fc5e1b1328fe31
+  languageName: node
+  linkType: hard
+
 "sisteransi@npm:^1.0.5":
   version: 1.0.5
   resolution: "sisteransi@npm:1.0.5"
@@ -16892,7 +17386,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"string-width@npm:^1.0.2 || 2 || 3 || 4, string-width@npm:^4.0.0, string-width@npm:^4.1.0, string-width@npm:^4.2.0, string-width@npm:^4.2.2, string-width@npm:^4.2.3":
+"string-width-cjs@npm:string-width@^4.2.0, string-width@npm:^1.0.2 || 2 || 3 || 4, string-width@npm:^4.0.0, string-width@npm:^4.1.0, string-width@npm:^4.2.0, string-width@npm:^4.2.2, string-width@npm:^4.2.3":
   version: 4.2.3
   resolution: "string-width@npm:4.2.3"
   dependencies:
@@ -16900,6 +17394,17 @@ resolve@^2.0.0-next.3:
     is-fullwidth-code-point: ^3.0.0
     strip-ansi: ^6.0.1
   checksum: e52c10dc3fbfcd6c3a15f159f54a90024241d0f149cf8aed2982a2d801d2e64df0bf1dc351cf8e95c3319323f9f220c16e740b06faecd53e2462df1d2b5443fb
+  languageName: node
+  linkType: hard
+
+"string-width@npm:^5.0.1, string-width@npm:^5.1.2":
+  version: 5.1.2
+  resolution: "string-width@npm:5.1.2"
+  dependencies:
+    eastasianwidth: ^0.2.0
+    emoji-regex: ^9.2.2
+    strip-ansi: ^7.0.1
+  checksum: 7369deaa29f21dda9a438686154b62c2c5f661f8dda60449088f9f980196f7908fc39fdd1803e3e01541970287cf5deae336798337e9319a7055af89dafa7193
   languageName: node
   linkType: hard
 
@@ -16990,21 +17495,21 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1, strip-ansi@npm:^6.0.0, strip-ansi@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "strip-ansi@npm:6.0.1"
+  dependencies:
+    ansi-regex: ^5.0.1
+  checksum: f3cd25890aef3ba6e1a74e20896c21a46f482e93df4a06567cebf2b57edabb15133f1f94e57434e0a958d61186087b1008e89c94875d019910a213181a14fc8c
+  languageName: node
+  linkType: hard
+
 "strip-ansi@npm:^3.0.1":
   version: 3.0.1
   resolution: "strip-ansi@npm:3.0.1"
   dependencies:
     ansi-regex: ^2.0.0
   checksum: 9b974de611ce5075c70629c00fa98c46144043db92ae17748fb780f706f7a789e9989fd10597b7c2053ae8d1513fd707816a91f1879b2f71e6ac0b6a863db465
-  languageName: node
-  linkType: hard
-
-"strip-ansi@npm:^6.0.0, strip-ansi@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "strip-ansi@npm:6.0.1"
-  dependencies:
-    ansi-regex: ^5.0.1
-  checksum: f3cd25890aef3ba6e1a74e20896c21a46f482e93df4a06567cebf2b57edabb15133f1f94e57434e0a958d61186087b1008e89c94875d019910a213181a14fc8c
   languageName: node
   linkType: hard
 
@@ -18624,6 +19129,17 @@ typescript@^4.6.3:
   languageName: node
   linkType: hard
 
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0, wrap-ansi@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "wrap-ansi@npm:7.0.0"
+  dependencies:
+    ansi-styles: ^4.0.0
+    string-width: ^4.1.0
+    strip-ansi: ^6.0.0
+  checksum: a790b846fd4505de962ba728a21aaeda189b8ee1c7568ca5e817d85930e06ef8d1689d49dbf0e881e8ef84436af3a88bc49115c2e2788d841ff1b8b5b51a608b
+  languageName: node
+  linkType: hard
+
 "wrap-ansi@npm:^6.2.0":
   version: 6.2.0
   resolution: "wrap-ansi@npm:6.2.0"
@@ -18635,14 +19151,14 @@ typescript@^4.6.3:
   languageName: node
   linkType: hard
 
-"wrap-ansi@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "wrap-ansi@npm:7.0.0"
+"wrap-ansi@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "wrap-ansi@npm:8.1.0"
   dependencies:
-    ansi-styles: ^4.0.0
-    string-width: ^4.1.0
-    strip-ansi: ^6.0.0
-  checksum: a790b846fd4505de962ba728a21aaeda189b8ee1c7568ca5e817d85930e06ef8d1689d49dbf0e881e8ef84436af3a88bc49115c2e2788d841ff1b8b5b51a608b
+    ansi-styles: ^6.1.0
+    string-width: ^5.0.1
+    strip-ansi: ^7.0.1
+  checksum: 371733296dc2d616900ce15a0049dca0ef67597d6394c57347ba334393599e800bab03c41d4d45221b6bc967b8c453ec3ae4749eff3894202d16800fdfe0e238
   languageName: node
   linkType: hard
 

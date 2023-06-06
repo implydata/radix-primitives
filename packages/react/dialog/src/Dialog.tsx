@@ -129,8 +129,12 @@ const [PortalProvider, usePortalContext] = createDialogContext<PortalContextValu
 });
 
 type PortalProps = React.ComponentPropsWithoutRef<typeof PortalPrimitive>;
-interface DialogPortalProps extends Omit<PortalProps, 'asChild'> {
+interface DialogPortalProps {
   children?: React.ReactNode;
+  /**
+   * Specify a container element to portal the content into.
+   */
+  container?: PortalProps['container'];
   /**
    * Used to force mounting when more control is needed. Useful when
    * controlling animation with React animation libraries.
@@ -299,6 +303,7 @@ const DialogContentNonModal = React.forwardRef<DialogContentTypeElement, DialogC
   (props: ScopedProps<DialogContentTypeProps>, forwardedRef) => {
     const context = useDialogContext(CONTENT_NAME, props.__scopeDialog);
     const hasInteractedOutsideRef = React.useRef(false);
+    const hasPointerDownOutsideRef = React.useRef(false);
 
     return (
       <DialogContentImpl
@@ -316,21 +321,32 @@ const DialogContentNonModal = React.forwardRef<DialogContentTypeElement, DialogC
           }
 
           hasInteractedOutsideRef.current = false;
+          hasPointerDownOutsideRef.current = false;
         }}
         onInteractOutside={(event) => {
           props.onInteractOutside?.(event);
 
-          if (!event.defaultPrevented) hasInteractedOutsideRef.current = true;
+          if (!event.defaultPrevented) {
+            hasInteractedOutsideRef.current = true;
+            if (event.detail.originalEvent.type === 'pointerdown') {
+              hasPointerDownOutsideRef.current = true;
+            }
+          }
 
           // Prevent dismissing when clicking the trigger.
           // As the trigger is already setup to close, without doing so would
           // cause it to close and immediately open.
-          //
-          // We use `onInteractOutside` as some browsers also
-          // focus on pointer down, creating the same issue.
           const target = event.target as HTMLElement;
           const targetIsTrigger = context.triggerRef.current?.contains(target);
           if (targetIsTrigger) event.preventDefault();
+
+          // On Safari if the trigger is inside a container with tabIndex={0}, when clicked
+          // we will get the pointer down outside event on the trigger, but then a subsequent
+          // focus outside event on the container, we ignore any focus outside event when we've
+          // already had a pointer down outside event.
+          if (event.detail.originalEvent.type === 'focusin' && hasPointerDownOutsideRef.current) {
+            event.preventDefault();
+          }
         }}
       />
     );

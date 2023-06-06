@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-use-previous
+$ yarn add @implydata/radix-react-use-previous
 # or
-$ npm install @radix-ui/react-use-previous
+$ npm install @implydata/radix-react-use-previous
 ```
 
 ## Usage

@@ -1,0 +1,5 @@
+releases:
+  "@implydata/radix-react-scroll-area": patch
+
+declined:
+  - primitives

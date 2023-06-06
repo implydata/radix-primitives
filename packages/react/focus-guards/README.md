@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-focus-guards
+$ yarn add @implydata/radix-react-focus-guards
 # or
-$ npm install @radix-ui/react-focus-guards
+$ npm install @implydata/radix-react-focus-guards
 ```
 
 ## Usage

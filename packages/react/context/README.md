@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-context
+$ yarn add @implydata/radix-react-context
 # or
-$ npm install @radix-ui/react-context
+$ npm install @implydata/radix-react-context
 ```
 
 ## Usage

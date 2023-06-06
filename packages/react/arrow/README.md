@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-arrow
+$ yarn add @implydata/radix-react-arrow
 # or
-$ npm install @radix-ui/react-arrow
+$ npm install @implydata/radix-react-arrow
 ```
 
 ## Usage

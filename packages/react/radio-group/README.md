@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-radio-group
+$ yarn add @implydata/radix-react-radio-group
 # or
-$ npm install @radix-ui/react-radio-group
+$ npm install @implydata/radix-react-radio-group
 ```
 
 ## Usage

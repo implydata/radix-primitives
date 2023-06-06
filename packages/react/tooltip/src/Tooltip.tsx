@@ -323,8 +323,12 @@ const [PortalProvider, usePortalContext] = createTooltipContext<PortalContextVal
 });
 
 type PortalProps = React.ComponentPropsWithoutRef<typeof PortalPrimitive>;
-interface TooltipPortalProps extends Omit<PortalProps, 'asChild'> {
+interface TooltipPortalProps {
   children?: React.ReactNode;
+  /**
+   * Specify a container element to portal the content into.
+   */
+  container?: PortalProps['container'];
   /**
    * Used to force mounting when more control is needed. Useful when
    * controlling animation with React animation libraries.
@@ -412,15 +416,9 @@ const TooltipContentHoverable = React.forwardRef<
       const currentTarget = event.currentTarget as HTMLElement;
       const exitPoint = { x: event.clientX, y: event.clientY };
       const exitSide = getExitSideFromRect(exitPoint, currentTarget.getBoundingClientRect());
-
-      const bleed = exitSide === 'right' || exitSide === 'bottom' ? -5 : 5;
-      const isXAxis = exitSide === 'right' || exitSide === 'left';
-      const startPoint = isXAxis
-        ? { x: event.clientX + bleed, y: event.clientY }
-        : { x: event.clientX, y: event.clientY + bleed };
-
+      const paddedExitPoints = getPaddedExitPoints(exitPoint, exitSide);
       const hoverTargetPoints = getPointsFromRect(hoverTarget.getBoundingClientRect());
-      const graceArea = getHull([startPoint, ...hoverTargetPoints]);
+      const graceArea = getHull([...paddedExitPoints, ...hoverTargetPoints]);
       setPointerGraceArea(graceArea);
       onPointerInTransitChange(true);
     },
@@ -594,7 +592,9 @@ TooltipArrow.displayName = ARROW_NAME;
 
 /* -----------------------------------------------------------------------------------------------*/
 
-function getExitSideFromRect(point: Point, rect: DOMRect) {
+type Side = NonNullable<TooltipContentProps['side']>;
+
+function getExitSideFromRect(point: Point, rect: DOMRect): Side {
   const top = Math.abs(rect.top - point.y);
   const bottom = Math.abs(rect.bottom - point.y);
   const right = Math.abs(rect.right - point.x);
@@ -610,8 +610,39 @@ function getExitSideFromRect(point: Point, rect: DOMRect) {
     case bottom:
       return 'bottom';
     default:
-      return null;
+      throw new Error('unreachable');
   }
+}
+
+function getPaddedExitPoints(exitPoint: Point, exitSide: Side, padding = 5) {
+  const paddedExitPoints: Point[] = [];
+  switch (exitSide) {
+    case 'top':
+      paddedExitPoints.push(
+        { x: exitPoint.x - padding, y: exitPoint.y + padding },
+        { x: exitPoint.x + padding, y: exitPoint.y + padding }
+      );
+      break;
+    case 'bottom':
+      paddedExitPoints.push(
+        { x: exitPoint.x - padding, y: exitPoint.y - padding },
+        { x: exitPoint.x + padding, y: exitPoint.y - padding }
+      );
+      break;
+    case 'left':
+      paddedExitPoints.push(
+        { x: exitPoint.x + padding, y: exitPoint.y - padding },
+        { x: exitPoint.x + padding, y: exitPoint.y + padding }
+      );
+      break;
+    case 'right':
+      paddedExitPoints.push(
+        { x: exitPoint.x - padding, y: exitPoint.y - padding },
+        { x: exitPoint.x - padding, y: exitPoint.y + padding }
+      );
+      break;
+  }
+  return paddedExitPoints;
 }
 
 function getPointsFromRect(rect: DOMRect) {

@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-menu
+$ yarn add @implydata/radix-react-menu
 # or
-$ npm install @radix-ui/react-menu
+$ npm install @implydata/radix-react-menu
 ```
 
 ## Usage

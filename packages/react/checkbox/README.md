@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-checkbox
+$ yarn add @implydata/radix-react-checkbox
 # or
-$ npm install @radix-ui/react-checkbox
+$ npm install @implydata/radix-react-checkbox
 ```
 
 ## Usage

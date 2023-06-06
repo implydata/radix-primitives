@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-navigation-menu
+$ yarn add @implydata/radix-react-navigation-menu
 # or
-$ npm install @radix-ui/react-navigation-menu
+$ npm install @implydata/radix-react-navigation-menu
 ```
 
 ## Usage

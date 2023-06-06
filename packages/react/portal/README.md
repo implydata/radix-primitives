@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-portal
+$ yarn add @implydata/radix-react-portal
 # or
-$ npm install @radix-ui/react-portal
+$ npm install @implydata/radix-react-portal
 ```
 
 ## Usage

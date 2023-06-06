@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-use-escape-keydown
+$ yarn add @implydata/radix-react-use-escape-keydown
 # or
-$ npm install @radix-ui/react-use-escape-keydown
+$ npm install @implydata/radix-react-use-escape-keydown
 ```
 
 ## Usage

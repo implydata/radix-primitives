@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-slider
+$ yarn add @implydata/radix-react-slider
 # or
-$ npm install @radix-ui/react-slider
+$ npm install @implydata/radix-react-slider
 ```
 
 ## Usage

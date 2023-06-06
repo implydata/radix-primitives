@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @radix-ui/react-progress
+$ yarn add @implydata/radix-react-progress
 # or
-$ npm install @radix-ui/react-progress
+$ npm install @implydata/radix-react-progress
 ```
 
 ## Usage
