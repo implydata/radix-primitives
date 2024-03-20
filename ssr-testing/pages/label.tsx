@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Label } from '@implydata/radix-react-label';
+import { Label } from '@radix-ui/react-label';
 
 export default function LabelPage() {
   return <Label>Label</Label>;

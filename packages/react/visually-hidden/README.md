@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-visually-hidden
+$ yarn add @radix-ui/react-visually-hidden
 # or
-$ npm install @implydata/radix-react-visually-hidden
+$ npm install @radix-ui/react-visually-hidden
 ```
 
 ## Usage

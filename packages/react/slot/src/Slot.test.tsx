@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { Slot, Slottable } from '@implydata/radix-react-slot';
+import { Slot, Slottable } from '@radix-ui/react-slot';
 
 describe('given a slotted Trigger', () => {
   describe('with onClick on itself', () => {

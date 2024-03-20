@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-progress",
+  "name": "@radix-ui/react-progress",
   "version": "1.0.3",
   "license": "MIT",
   "exports": {
@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*"
+    "@radix-ui/react-context": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

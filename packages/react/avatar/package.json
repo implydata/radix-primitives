@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-avatar",
+  "name": "@radix-ui/react-avatar",
   "version": "1.0.4",
   "license": "MIT",
   "exports": {
@@ -29,10 +29,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*",
-    "@implydata/radix-react-use-callback-ref": "workspace:*",
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
+    "@radix-ui/react-context": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*",
+    "@radix-ui/react-use-callback-ref": "workspace:*",
+    "@radix-ui/react-use-layout-effect": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-separator
+$ yarn add @radix-ui/react-separator
 # or
-$ npm install @implydata/radix-react-separator
+$ npm install @radix-ui/react-separator
 ```
 
 ## Usage

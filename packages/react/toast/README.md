@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-toast
+$ yarn add @radix-ui/react-toast
 # or
-$ npm install @implydata/radix-react-toast
+$ npm install @radix-ui/react-toast
 ```
 
 ## Usage

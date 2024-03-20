@@ -1,19 +1,19 @@
 import * as React from 'react';
-import { createCollection } from '@implydata/radix-react-collection';
-import { useDirection } from '@implydata/radix-react-direction';
-import { composeEventHandlers } from '@implydata/radix-primitive';
-import { useComposedRefs } from '@implydata/radix-react-compose-refs';
-import { createContextScope } from '@implydata/radix-react-context';
-import { useId } from '@implydata/radix-react-id';
-import * as MenuPrimitive from '@implydata/radix-react-menu';
-import { createMenuScope } from '@implydata/radix-react-menu';
-import * as RovingFocusGroup from '@implydata/radix-react-roving-focus';
-import { createRovingFocusGroupScope } from '@implydata/radix-react-roving-focus';
-import { Primitive } from '@implydata/radix-react-primitive';
-import { useControllableState } from '@implydata/radix-react-use-controllable-state';
+import { createCollection } from '@radix-ui/react-collection';
+import { useDirection } from '@radix-ui/react-direction';
+import { composeEventHandlers } from '@radix-ui/primitive';
+import { useComposedRefs } from '@radix-ui/react-compose-refs';
+import { createContextScope } from '@radix-ui/react-context';
+import { useId } from '@radix-ui/react-id';
+import * as MenuPrimitive from '@radix-ui/react-menu';
+import { createMenuScope } from '@radix-ui/react-menu';
+import * as RovingFocusGroup from '@radix-ui/react-roving-focus';
+import { createRovingFocusGroupScope } from '@radix-ui/react-roving-focus';
+import { Primitive } from '@radix-ui/react-primitive';
+import { useControllableState } from '@radix-ui/react-use-controllable-state';
 
-import type { Scope } from '@implydata/radix-react-context';
-import type * as Radix from '@implydata/radix-react-primitive';
+import type { Scope } from '@radix-ui/react-context';
+import type * as Radix from '@radix-ui/react-primitive';
 
 type Direction = 'ltr' | 'rtl';
 

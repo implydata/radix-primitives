@@ -5,7 +5,7 @@ import {
   AccordionHeader,
   AccordionTrigger,
   AccordionContent,
-} from '@implydata/radix-react-accordion';
+} from '@radix-ui/react-accordion';
 
 export default function AccordionPage() {
   return (

@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-hover-card
+$ yarn add @radix-ui/react-hover-card
 # or
-$ npm install @implydata/radix-react-hover-card
+$ npm install @radix-ui/react-hover-card
 ```
 
 ## Usage

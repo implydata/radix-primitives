@@ -1,15 +1,15 @@
 import * as React from 'react';
-import { composeEventHandlers } from '@implydata/radix-primitive';
-import { composeRefs } from '@implydata/radix-react-compose-refs';
-import { createContextScope } from '@implydata/radix-react-context';
-import { useControllableState } from '@implydata/radix-react-use-controllable-state';
-import { Primitive } from '@implydata/radix-react-primitive';
-import * as MenuPrimitive from '@implydata/radix-react-menu';
-import { createMenuScope } from '@implydata/radix-react-menu';
-import { useId } from '@implydata/radix-react-id';
+import { composeEventHandlers } from '@radix-ui/primitive';
+import { composeRefs } from '@radix-ui/react-compose-refs';
+import { createContextScope } from '@radix-ui/react-context';
+import { useControllableState } from '@radix-ui/react-use-controllable-state';
+import { Primitive } from '@radix-ui/react-primitive';
+import * as MenuPrimitive from '@radix-ui/react-menu';
+import { createMenuScope } from '@radix-ui/react-menu';
+import { useId } from '@radix-ui/react-id';
 
-import type * as Radix from '@implydata/radix-react-primitive';
-import type { Scope } from '@implydata/radix-react-context';
+import type * as Radix from '@radix-ui/react-primitive';
+import type { Scope } from '@radix-ui/react-context';
 
 type Direction = 'ltr' | 'rtl';
 

@@ -7,7 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuArrow,
-} from '@implydata/radix-react-dropdown-menu';
+} from '@radix-ui/react-dropdown-menu';
 
 export default function DropdownMenuPage() {
   return (

@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-label
+$ yarn add @radix-ui/react-label
 # or
-$ npm install @implydata/radix-react-label
+$ npm install @radix-ui/react-label
 ```
 
 ## Usage

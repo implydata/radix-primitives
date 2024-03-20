@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as Popover from '@implydata/radix-react-popover';
+import * as Popover from '@radix-ui/react-popover';
 
 export default function PopoverPage() {
   return (

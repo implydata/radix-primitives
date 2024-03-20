@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-arrow",
+  "name": "@radix-ui/react-arrow",
   "version": "1.0.3",
   "license": "MIT",
   "exports": {
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-react-primitive": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

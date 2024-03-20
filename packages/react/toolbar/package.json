@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-toolbar",
+  "name": "@radix-ui/react-toolbar",
   "version": "1.0.5-rc.10",
   "license": "MIT",
   "exports": {
@@ -29,13 +29,13 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-primitive": "workspace:*",
-    "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-direction": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*",
-    "@implydata/radix-react-roving-focus": "workspace:*",
-    "@implydata/radix-react-separator": "workspace:*",
-    "@implydata/radix-react-toggle-group": "workspace:*"
+    "@radix-ui/primitive": "workspace:*",
+    "@radix-ui/react-context": "workspace:*",
+    "@radix-ui/react-direction": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*",
+    "@radix-ui/react-roving-focus": "workspace:*",
+    "@radix-ui/react-separator": "workspace:*",
+    "@radix-ui/react-toggle-group": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

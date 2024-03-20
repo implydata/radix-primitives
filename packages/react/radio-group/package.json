@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-radio-group",
+  "name": "@radix-ui/react-radio-group",
   "version": "1.1.4-rc.10",
   "license": "MIT",
   "exports": {
@@ -29,16 +29,16 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-primitive": "workspace:*",
-    "@implydata/radix-react-compose-refs": "workspace:*",
-    "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-direction": "workspace:*",
-    "@implydata/radix-react-presence": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*",
-    "@implydata/radix-react-roving-focus": "workspace:*",
-    "@implydata/radix-react-use-controllable-state": "workspace:*",
-    "@implydata/radix-react-use-previous": "workspace:*",
-    "@implydata/radix-react-use-size": "workspace:*"
+    "@radix-ui/primitive": "workspace:*",
+    "@radix-ui/react-compose-refs": "workspace:*",
+    "@radix-ui/react-context": "workspace:*",
+    "@radix-ui/react-direction": "workspace:*",
+    "@radix-ui/react-presence": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*",
+    "@radix-ui/react-roving-focus": "workspace:*",
+    "@radix-ui/react-use-controllable-state": "workspace:*",
+    "@radix-ui/react-use-previous": "workspace:*",
+    "@radix-ui/react-use-size": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

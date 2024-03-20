@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { css } from '../../../../stitches.config';
-import * as Form from '@implydata/radix-react-form';
+import * as Form from '@radix-ui/react-form';
 
 export default { title: 'Components/Form' };
 

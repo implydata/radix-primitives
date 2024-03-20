@@ -1,10 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { css } from '../../../../stitches.config';
-import * as Tooltip from '@implydata/radix-react-tooltip';
-import * as Dialog from '@implydata/radix-react-dialog';
+import * as Tooltip from '@radix-ui/react-tooltip';
+import * as Dialog from '@radix-ui/react-dialog';
 import { SIDE_OPTIONS, ALIGN_OPTIONS } from '@implydata/radix-react-popper';
-import * as DropdownMenu from '@implydata/radix-react-dropdown-menu';
+import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
 import { foodGroups } from '../../../../test-data/foods';
 import { classes, TickIcon } from '../../menu/src/Menu.stories';
 

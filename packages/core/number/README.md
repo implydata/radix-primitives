@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-number
+$ yarn add @radix-ui/number
 # or
-$ npm install @implydata/radix-number
+$ npm install @radix-ui/number
 ```
 
 ## Usage

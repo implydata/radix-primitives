@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-aspect-ratio
+$ yarn add @radix-ui/react-aspect-ratio
 # or
-$ npm install @implydata/radix-react-aspect-ratio
+$ npm install @radix-ui/react-aspect-ratio
 ```
 
 ## Usage

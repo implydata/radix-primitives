@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { DirectionProvider } from '@implydata/radix-react-direction';
+import { DirectionProvider } from '@radix-ui/react-direction';
 import { css, keyframes } from '../../../../stitches.config';
-import * as Tabs from '@implydata/radix-react-tabs';
+import * as Tabs from '@radix-ui/react-tabs';
 
 export default { title: 'Components/Tabs' };
 

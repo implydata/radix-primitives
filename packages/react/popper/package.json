@@ -30,15 +30,15 @@
   "dependencies": {
     "@babel/runtime": "^7.13.10",
     "@floating-ui/react-dom": "^2.0.0",
-    "@implydata/radix-react-arrow": "workspace:*",
-    "@implydata/radix-react-compose-refs": "workspace:*",
-    "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*",
-    "@implydata/radix-react-use-callback-ref": "workspace:*",
-    "@implydata/radix-react-use-layout-effect": "workspace:*",
-    "@implydata/radix-react-use-rect": "workspace:*",
-    "@implydata/radix-react-use-size": "workspace:*",
-    "@implydata/radix-rect": "workspace:*"
+    "@radix-ui/react-arrow": "workspace:*",
+    "@radix-ui/react-compose-refs": "workspace:*",
+    "@radix-ui/react-context": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*",
+    "@radix-ui/react-use-callback-ref": "workspace:*",
+    "@radix-ui/react-use-layout-effect": "workspace:*",
+    "@radix-ui/react-use-rect": "workspace:*",
+    "@radix-ui/react-use-size": "workspace:*",
+    "@radix-ui/rect": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

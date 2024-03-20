@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-form
+$ yarn add @radix-ui/react-form
 # or
-$ npm install @implydata/radix-react-form
+$ npm install @radix-ui/react-form
 ```
 
 ## Usage

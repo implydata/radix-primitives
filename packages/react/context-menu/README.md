@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-context-menu
+$ yarn add @radix-ui/react-context-menu
 # or
-$ npm install @implydata/radix-react-context-menu
+$ npm install @radix-ui/react-context-menu
 ```
 
 ## Usage

@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-use-controllable-state
+$ yarn add @radix-ui/react-use-controllable-state
 # or
-$ npm install @implydata/radix-react-use-controllable-state
+$ npm install @radix-ui/react-use-controllable-state
 ```
 
 ## Usage

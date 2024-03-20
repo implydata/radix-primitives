@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-id
+$ yarn add @radix-ui/react-id
 # or
-$ npm install @implydata/radix-react-id
+$ npm install @radix-ui/react-id
 ```
 
 ## Usage

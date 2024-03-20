@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as Select from '@implydata/radix-react-select';
+import * as Select from '@radix-ui/react-select';
 
 export default function SelectPage() {
   return (

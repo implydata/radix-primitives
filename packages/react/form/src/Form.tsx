@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { composeEventHandlers } from '@implydata/radix-primitive';
-import { useComposedRefs } from '@implydata/radix-react-compose-refs';
-import { createContextScope } from '@implydata/radix-react-context';
-import { useId } from '@implydata/radix-react-id';
-import { Label as LabelPrimitive } from '@implydata/radix-react-label';
-import { Primitive } from '@implydata/radix-react-primitive';
+import { composeEventHandlers } from '@radix-ui/primitive';
+import { useComposedRefs } from '@radix-ui/react-compose-refs';
+import { createContextScope } from '@radix-ui/react-context';
+import { useId } from '@radix-ui/react-id';
+import { Label as LabelPrimitive } from '@radix-ui/react-label';
+import { Primitive } from '@radix-ui/react-primitive';
 
-import type * as Radix from '@implydata/radix-react-primitive';
-import type { Scope } from '@implydata/radix-react-context';
+import type * as Radix from '@radix-ui/react-primitive';
+import type { Scope } from '@radix-ui/react-context';
 
 type ScopedProps<P> = P & { __scopeForm?: Scope };
 const [createFormContext, createFormScope] = createContextScope('Form');

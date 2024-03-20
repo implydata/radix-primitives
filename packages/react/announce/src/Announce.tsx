@@ -1,10 +1,10 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import { useComposedRefs } from '@implydata/radix-react-compose-refs';
-import { Primitive } from '@implydata/radix-react-primitive';
-import { useLayoutEffect } from '@implydata/radix-react-use-layout-effect';
+import { useComposedRefs } from '@radix-ui/react-compose-refs';
+import { Primitive } from '@radix-ui/react-primitive';
+import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
 
-import type * as Radix from '@implydata/radix-react-primitive';
+import type * as Radix from '@radix-ui/react-primitive';
 
 type RegionType = 'polite' | 'assertive' | 'off';
 type RegionRole = 'status' | 'alert' | 'log' | 'none';

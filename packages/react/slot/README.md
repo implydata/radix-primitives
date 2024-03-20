@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-slot
+$ yarn add @radix-ui/react-slot
 # or
-$ npm install @implydata/radix-react-slot
+$ npm install @radix-ui/react-slot
 ```
 
 ## Usage

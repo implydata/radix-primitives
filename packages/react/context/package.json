@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-context",
+  "name": "@radix-ui/react-context",
   "version": "1.0.1",
   "license": "MIT",
   "exports": {

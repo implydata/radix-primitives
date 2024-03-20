@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-form",
+  "name": "@radix-ui/react-form",
   "version": "0.0.4-rc.6",
   "license": "MIT",
   "exports": {
@@ -29,12 +29,12 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-primitive": "workspace:*",
-    "@implydata/radix-react-compose-refs": "workspace:*",
-    "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-id": "workspace:*",
-    "@implydata/radix-react-label": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*"
+    "@radix-ui/primitive": "workspace:*",
+    "@radix-ui/react-compose-refs": "workspace:*",
+    "@radix-ui/react-context": "workspace:*",
+    "@radix-ui/react-id": "workspace:*",
+    "@radix-ui/react-label": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

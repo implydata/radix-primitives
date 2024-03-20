@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-use-layout-effect
+$ yarn add @radix-ui/react-use-layout-effect
 # or
-$ npm install @implydata/radix-react-use-layout-effect
+$ npm install @radix-ui/react-use-layout-effect
 ```
 
 ## Usage

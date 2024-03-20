@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-use-controllable-state",
+  "name": "@radix-ui/react-use-controllable-state",
   "version": "1.0.1",
   "license": "MIT",
   "exports": {
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

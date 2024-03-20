@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-use-rect
+$ yarn add @radix-ui/react-use-rect
 # or
-$ npm install @implydata/radix-react-use-rect
+$ npm install @radix-ui/react-use-rect
 ```
 
 ## Usage

@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-dropdown-menu",
+  "name": "@radix-ui/react-dropdown-menu",
   "version": "2.0.7-rc.10",
   "license": "MIT",
   "exports": {
@@ -29,13 +29,13 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-primitive": "workspace:*",
-    "@implydata/radix-react-compose-refs": "workspace:*",
-    "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-id": "workspace:*",
-    "@implydata/radix-react-menu": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*",
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
+    "@radix-ui/primitive": "workspace:*",
+    "@radix-ui/react-compose-refs": "workspace:*",
+    "@radix-ui/react-context": "workspace:*",
+    "@radix-ui/react-id": "workspace:*",
+    "@radix-ui/react-menu": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*",
+    "@radix-ui/react-use-controllable-state": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

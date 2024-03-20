@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useCallbackRef } from '@implydata/radix-react-use-callback-ref';
+import { useCallbackRef } from '@radix-ui/react-use-callback-ref';
 
 /**
  * Listens for when the escape key is down

@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { createContextScope } from '@implydata/radix-react-context';
-import { useComposedRefs } from '@implydata/radix-react-compose-refs';
-import * as DialogPrimitive from '@implydata/radix-react-dialog';
-import { createDialogScope } from '@implydata/radix-react-dialog';
-import { composeEventHandlers } from '@implydata/radix-primitive';
-import { Slottable } from '@implydata/radix-react-slot';
+import { createContextScope } from '@radix-ui/react-context';
+import { useComposedRefs } from '@radix-ui/react-compose-refs';
+import * as DialogPrimitive from '@radix-ui/react-dialog';
+import { createDialogScope } from '@radix-ui/react-dialog';
+import { composeEventHandlers } from '@radix-ui/primitive';
+import { Slottable } from '@radix-ui/react-slot';
 
-import type * as Radix from '@implydata/radix-react-primitive';
-import type { Scope } from '@implydata/radix-react-context';
+import type * as Radix from '@radix-ui/react-primitive';
+import type { Scope } from '@radix-ui/react-context';
 
 /* -------------------------------------------------------------------------------------------------
  * AlertDialog
@@ -247,7 +247,7 @@ const DescriptionWarning: React.FC<DescriptionWarningProps> = ({ contentRef }) =
 
 You can add a description to the \`${CONTENT_NAME}\` by passing a \`${DESCRIPTION_NAME}\` component as a child, which also benefits sighted users by adding visible context to the dialog.
 
-Alternatively, you can use your own component as a description by assigning it an \`id\` and passing the same value to the \`aria-describedby\` prop in \`${CONTENT_NAME}\`. If the description is confusing or duplicative for sighted users, you can use the \`@implydata/radix-react-visually-hidden\` primitive as a wrapper around your description component.
+Alternatively, you can use your own component as a description by assigning it an \`id\` and passing the same value to the \`aria-describedby\` prop in \`${CONTENT_NAME}\`. If the description is confusing or duplicative for sighted users, you can use the \`@radix-ui/react-visually-hidden\` primitive as a wrapper around your description component.
 
 For more information, see https://radix-ui.com/primitives/docs/components/alert-dialog`;
 

@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-accessible-icon",
+  "name": "@radix-ui/react-accessible-icon",
   "version": "1.0.3",
   "license": "MIT",
   "exports": {
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-react-visually-hidden": "workspace:*"
+    "@radix-ui/react-visually-hidden": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

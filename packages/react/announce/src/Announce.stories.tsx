@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { VisuallyHidden } from '@implydata/radix-react-visually-hidden';
-import { Announce } from '@implydata/radix-react-announce';
+import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
+import { Announce } from '@radix-ui/react-announce';
 
 export default { title: 'Utilities/Announce' };
 

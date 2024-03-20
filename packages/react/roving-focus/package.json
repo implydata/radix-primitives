@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-roving-focus",
+  "name": "@radix-ui/react-roving-focus",
   "version": "1.0.5-rc.10",
   "license": "MIT",
   "exports": {
@@ -29,15 +29,15 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-primitive": "workspace:*",
-    "@implydata/radix-react-collection": "workspace:*",
-    "@implydata/radix-react-compose-refs": "workspace:*",
-    "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-direction": "workspace:*",
-    "@implydata/radix-react-id": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*",
-    "@implydata/radix-react-use-callback-ref": "workspace:*",
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
+    "@radix-ui/primitive": "workspace:*",
+    "@radix-ui/react-collection": "workspace:*",
+    "@radix-ui/react-compose-refs": "workspace:*",
+    "@radix-ui/react-context": "workspace:*",
+    "@radix-ui/react-direction": "workspace:*",
+    "@radix-ui/react-id": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*",
+    "@radix-ui/react-use-callback-ref": "workspace:*",
+    "@radix-ui/react-use-controllable-state": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

@@ -1,17 +1,17 @@
 import React from 'react';
-import { createContextScope } from '@implydata/radix-react-context';
-import { createCollection } from '@implydata/radix-react-collection';
-import { useComposedRefs } from '@implydata/radix-react-compose-refs';
-import { composeEventHandlers } from '@implydata/radix-primitive';
-import { useControllableState } from '@implydata/radix-react-use-controllable-state';
-import { Primitive } from '@implydata/radix-react-primitive';
-import * as CollapsiblePrimitive from '@implydata/radix-react-collapsible';
-import { createCollapsibleScope } from '@implydata/radix-react-collapsible';
-import { useId } from '@implydata/radix-react-id';
+import { createContextScope } from '@radix-ui/react-context';
+import { createCollection } from '@radix-ui/react-collection';
+import { useComposedRefs } from '@radix-ui/react-compose-refs';
+import { composeEventHandlers } from '@radix-ui/primitive';
+import { useControllableState } from '@radix-ui/react-use-controllable-state';
+import { Primitive } from '@radix-ui/react-primitive';
+import * as CollapsiblePrimitive from '@radix-ui/react-collapsible';
+import { createCollapsibleScope } from '@radix-ui/react-collapsible';
+import { useId } from '@radix-ui/react-id';
 
-import type * as Radix from '@implydata/radix-react-primitive';
-import type { Scope } from '@implydata/radix-react-context';
-import { useDirection } from '@implydata/radix-react-direction';
+import type * as Radix from '@radix-ui/react-primitive';
+import type { Scope } from '@radix-ui/react-context';
+import { useDirection } from '@radix-ui/react-direction';
 
 type Direction = 'ltr' | 'rtl';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-focus-scope",
+  "name": "@radix-ui/react-focus-scope",
   "version": "1.0.4",
   "license": "MIT",
   "exports": {
@@ -29,9 +29,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-react-compose-refs": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*",
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*",
+    "@radix-ui/react-use-callback-ref": "workspace:*"
   },
   "peerDependencies": {
     "@types/react": "*",

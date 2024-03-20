@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-direction
+$ yarn add @radix-ui/react-direction
 # or
-$ npm install @implydata/radix-react-direction
+$ npm install @radix-ui/react-direction
 ```
 
 ## Usage

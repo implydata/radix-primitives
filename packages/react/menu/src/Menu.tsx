@@ -1,27 +1,27 @@
 import * as React from 'react';
-import { composeEventHandlers } from '@implydata/radix-primitive';
-import { createCollection } from '@implydata/radix-react-collection';
-import { useComposedRefs, composeRefs } from '@implydata/radix-react-compose-refs';
-import { createContextScope } from '@implydata/radix-react-context';
-import { useDirection } from '@implydata/radix-react-direction';
-import { DismissableLayer } from '@implydata/radix-react-dismissable-layer';
-import { useFocusGuards } from '@implydata/radix-react-focus-guards';
-import { FocusScope } from '@implydata/radix-react-focus-scope';
-import { useId } from '@implydata/radix-react-id';
+import { composeEventHandlers } from '@radix-ui/primitive';
+import { createCollection } from '@radix-ui/react-collection';
+import { useComposedRefs, composeRefs } from '@radix-ui/react-compose-refs';
+import { createContextScope } from '@radix-ui/react-context';
+import { useDirection } from '@radix-ui/react-direction';
+import { DismissableLayer } from '@radix-ui/react-dismissable-layer';
+import { useFocusGuards } from '@radix-ui/react-focus-guards';
+import { FocusScope } from '@radix-ui/react-focus-scope';
+import { useId } from '@radix-ui/react-id';
 import * as PopperPrimitive from '@implydata/radix-react-popper';
 import { createPopperScope } from '@implydata/radix-react-popper';
-import { Portal as PortalPrimitive } from '@implydata/radix-react-portal';
-import { Presence } from '@implydata/radix-react-presence';
-import { Primitive, dispatchDiscreteCustomEvent } from '@implydata/radix-react-primitive';
-import * as RovingFocusGroup from '@implydata/radix-react-roving-focus';
-import { createRovingFocusGroupScope } from '@implydata/radix-react-roving-focus';
-import { Slot } from '@implydata/radix-react-slot';
-import { useCallbackRef } from '@implydata/radix-react-use-callback-ref';
+import { Portal as PortalPrimitive } from '@radix-ui/react-portal';
+import { Presence } from '@radix-ui/react-presence';
+import { Primitive, dispatchDiscreteCustomEvent } from '@radix-ui/react-primitive';
+import * as RovingFocusGroup from '@radix-ui/react-roving-focus';
+import { createRovingFocusGroupScope } from '@radix-ui/react-roving-focus';
+import { Slot } from '@radix-ui/react-slot';
+import { useCallbackRef } from '@radix-ui/react-use-callback-ref';
 import { hideOthers } from 'aria-hidden';
 import { RemoveScroll } from 'react-remove-scroll';
 
-import type * as Radix from '@implydata/radix-react-primitive';
-import type { Scope } from '@implydata/radix-react-context';
+import type * as Radix from '@radix-ui/react-primitive';
+import type { Scope } from '@radix-ui/react-context';
 
 type Direction = 'ltr' | 'rtl';
 

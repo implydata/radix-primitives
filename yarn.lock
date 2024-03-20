@@ -3066,29 +3066,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@floating-ui/core@npm:^1.0.0":
-  version: 1.6.0
-  resolution: "@floating-ui/core@npm:1.6.0"
-  dependencies:
-    "@floating-ui/utils": "npm:^0.2.1"
-  checksum: 10/d6a47cacde193cd8ccb4c268b91ccc4ca254dffaec6242b07fd9bcde526044cc976d27933a7917f9a671de0a0e27f8d358f46400677dbd0c8199de293e9746e1
-  languageName: node
-  linkType: hard
-
 "@floating-ui/core@npm:^1.2.6":
   version: 1.2.6
   resolution: "@floating-ui/core@npm:1.2.6"
   checksum: 10/d302d1641a2d107f953a0ebaebd513957881df7d9c2ae4d225bc802a0a950c3581b62c18bc66e06322618abcc3b1f33b1067c40f258e3a100ac122b0a653323a
-  languageName: node
-  linkType: hard
-
-"@floating-ui/dom@npm:^1.2.1":
-  version: 1.6.3
-  resolution: "@floating-ui/dom@npm:1.6.3"
-  dependencies:
-    "@floating-ui/core": "npm:^1.0.0"
-    "@floating-ui/utils": "npm:^0.2.0"
-  checksum: 10/83e97076c7a5f55c3506f574bc53f03d38bed6eb8181920c8733076889371e287e9ae6f28c520a076967759b9b6ff425362832a5cdf16a999069530dbb9cce53
   languageName: node
   linkType: hard
 
@@ -3101,18 +3082,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@floating-ui/react-dom@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@floating-ui/react-dom@npm:1.3.0"
-  dependencies:
-    "@floating-ui/dom": "npm:^1.2.1"
-  peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  checksum: 10/0f9ad9513167a302a844614e2a2a4f8a4d79c7faed3f98a82f84bb28dcdc296faa5462ba54e7afbf643f61fa893778d0aade1eb23e3daebe5351034f202db277
-  languageName: node
-  linkType: hard
-
 "@floating-ui/react-dom@npm:^2.0.0":
   version: 2.0.0
   resolution: "@floating-ui/react-dom@npm:2.0.0"
@@ -3122,13 +3091,6 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: 10/f7ac1937498ab2b62ccca6e4703499d65daf8a5860b2c0e6ec328556fdf7b81ea19cda9251900e26b10feaaff686b1cdbfb15edc767f514b21014fc92e710b2c
-  languageName: node
-  linkType: hard
-
-"@floating-ui/utils@npm:^0.2.0, @floating-ui/utils@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "@floating-ui/utils@npm:0.2.1"
-  checksum: 10/33c9ab346e7b05c5a1e6a95bc902aafcfc2c9d513a147e2491468843bd5607531b06d0b9aa56aa491cbf22a6c2495c18ccfc4c0344baec54a689a7bb8e4898d6
   languageName: node
   linkType: hard
 
@@ -3173,815 +3135,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@implydata/radix-number@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-number@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  checksum: 10/43902c1129ecffc6718ff66ce35c7a2c4ae77d0c2798789dce459e24ee5aae75282179c927af0718414ee73e078eebb1cbd62389db1903cb862cb93bbdc5f1af
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-number@workspace:*, @implydata/radix-number@workspace:packages/core/number":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-number@workspace:packages/core/number"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-primitive@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-primitive@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  checksum: 10/4cb3fceedaefea209034463f8e242e154133013b86ae8d5acb6f3f3d605bbf5f39ca31128f1f4a288b82430168c18fb6f681f0bd66662820313c69819ffa9d8a
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-primitive@workspace:*, @implydata/radix-primitive@workspace:packages/core/primitive":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-primitive@workspace:packages/core/primitive"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-accessible-icon@workspace:packages/react/accessible-icon":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-accessible-icon@workspace:packages/react/accessible-icon"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-visually-hidden": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-accordion@workspace:packages/react/accordion":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-accordion@workspace:packages/react/accordion"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-collapsible": "workspace:*"
-    "@implydata/radix-react-collection": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-alert-dialog@workspace:packages/react/alert-dialog":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-alert-dialog@workspace:packages/react/alert-dialog"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-dialog": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-slot": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-announce@workspace:packages/react/announce":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-announce@workspace:packages/react/announce"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-arrow@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-arrow@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/f788b7ebd772426d0ff466c010af2d6d2f19c55f074691f8ea75629f3276bb1c296c4ac2700bb8dc13230bc1c9eef80a11df394b8a9cade159ae4ce7f335481a
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-arrow@workspace:*, @implydata/radix-react-arrow@workspace:packages/react/arrow":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-arrow@workspace:packages/react/arrow"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-aspect-ratio@workspace:packages/react/aspect-ratio":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-aspect-ratio@workspace:packages/react/aspect-ratio"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-avatar@workspace:packages/react/avatar":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-avatar@workspace:packages/react/avatar"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-checkbox@workspace:packages/react/checkbox":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-checkbox@workspace:packages/react/checkbox"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    "@implydata/radix-react-use-previous": "workspace:*"
-    "@implydata/radix-react-use-size": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-collapsible@workspace:*, @implydata/radix-react-collapsible@workspace:packages/react/collapsible":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-collapsible@workspace:packages/react/collapsible"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-collection@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-collection@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-compose-refs": "npm:1.1.0"
-    "@implydata/radix-react-context": "npm:1.1.0"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-    "@implydata/radix-react-slot": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/7b2b1e45041a4b2a7d2c441842833d992f08f83eec7c432c9351c1f1371ecac5d8d2995e7e7086e7873fe61669058b8c74e9859be44671fbb70ae8828835f7ee
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-collection@workspace:*, @implydata/radix-react-collection@workspace:packages/react/collection":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-collection@workspace:packages/react/collection"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-slot": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-compose-refs@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-compose-refs@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/30230630ec4f54c6d18d8ea54ff4a8858d4eee8d81a14e36906bd827eaf77a049eb74863b7cc20b9a9cf2a81a6dc2adb79b60d8c436291b59b45310615fec89f
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-compose-refs@workspace:*, @implydata/radix-react-compose-refs@workspace:packages/react/compose-refs":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-compose-refs@workspace:packages/react/compose-refs"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-context-menu@workspace:packages/react/context-menu":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-context-menu@workspace:packages/react/context-menu"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-menu": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-context@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-context@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/fda8929fddc56c77ae3540946e04a44386fb99f2f02124cc87f16ec79166fdcc248a3d1acf14bf0a26385ffbf44a5ee9edd000072049686ab6ce25a048d27a67
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-context@workspace:*, @implydata/radix-react-context@workspace:packages/react/context":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-context@workspace:packages/react/context"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-dialog@workspace:*, @implydata/radix-react-dialog@workspace:packages/react/dialog":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-dialog@workspace:packages/react/dialog"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-dismissable-layer": "workspace:*"
-    "@implydata/radix-react-focus-guards": "workspace:*"
-    "@implydata/radix-react-focus-scope": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-portal": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-slot": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    aria-hidden: "npm:^1.1.1"
-    react-remove-scroll: "npm:2.5.7"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-direction@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-direction@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/3094fb967db5e56ae20fc4ce270492435880f852a4d5ac539ee2da97c22a24c32878b1c43af096dc7e4adda2755dfa2b084d0a6886c96df609355bdf358420f8
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-direction@workspace:*, @implydata/radix-react-direction@workspace:packages/react/direction":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-direction@workspace:packages/react/direction"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-dismissable-layer@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-dismissable-layer@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "npm:1.1.0"
-    "@implydata/radix-react-compose-refs": "npm:1.1.0"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-    "@implydata/radix-react-use-callback-ref": "npm:1.1.0"
-    "@implydata/radix-react-use-escape-keydown": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/3ebfeef474aa4d1ac77cc7ac650690de63f85f23d37a092e38d5efb1899526f361c4e986aa546b1c79b0bdaf439f9c1efcf9c39b71762a77d998eee8d83e9af0
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-dismissable-layer@workspace:*, @implydata/radix-react-dismissable-layer@workspace:packages/react/dismissable-layer":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-dismissable-layer@workspace:packages/react/dismissable-layer"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    "@implydata/radix-react-use-escape-keydown": "workspace:*"
-    react-remove-scroll: "npm:2.5.7"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-dropdown-menu@workspace:packages/react/dropdown-menu":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-dropdown-menu@workspace:packages/react/dropdown-menu"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-menu": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-focus-guards@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-focus-guards@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/ab59782bad3217e1882198e4520bd3fef7b41038ea4d7e88585fe99e70976e595e95842b459b68e56d096d2480867f3acb02791fac966caa2985166cca2668f3
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-focus-guards@workspace:*, @implydata/radix-react-focus-guards@workspace:packages/react/focus-guards":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-focus-guards@workspace:packages/react/focus-guards"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-focus-scope@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-focus-scope@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-compose-refs": "npm:1.1.0"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-    "@implydata/radix-react-use-callback-ref": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/73201dd1f79b38221f7478a2451c92c06b730672fb82588ffc7ee2f1a67268f09a4877d758cc0b2a2992c73232355c0066b6caf574a66aa2f0db42145da93d34
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-focus-scope@workspace:*, @implydata/radix-react-focus-scope@workspace:packages/react/focus-scope":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-focus-scope@workspace:packages/react/focus-scope"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-form@workspace:packages/react/form":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-form@workspace:packages/react/form"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-label": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-hover-card@workspace:packages/react/hover-card":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-hover-card@workspace:packages/react/hover-card"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-dismissable-layer": "workspace:*"
-    "@implydata/radix-react-popper": "workspace:*"
-    "@implydata/radix-react-portal": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-id@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-id@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-use-layout-effect": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/dfb51813564c9bd04c8b442b351fa1f183b18871e1533044588d84fe1f0b4c168ea1ab4065b37fd52be1c6e4bff93ff8c92e7614435b2eb9a403f143fe809adc
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-id@workspace:*, @implydata/radix-react-id@workspace:packages/react/id":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-id@workspace:packages/react/id"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-label@workspace:*, @implydata/radix-react-label@workspace:packages/react/label":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-label@workspace:packages/react/label"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-menu@workspace:*, @implydata/radix-react-menu@workspace:packages/react/menu":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-menu@workspace:packages/react/menu"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-collection": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-dismissable-layer": "workspace:*"
-    "@implydata/radix-react-focus-guards": "workspace:*"
-    "@implydata/radix-react-focus-scope": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-popper": "workspace:*"
-    "@implydata/radix-react-portal": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-roving-focus": "workspace:*"
-    "@implydata/radix-react-slot": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    aria-hidden: "npm:^1.1.1"
-    react-remove-scroll: "npm:2.5.7"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-menubar@workspace:packages/react/menubar":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-menubar@workspace:packages/react/menubar"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-collection": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-menu": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-roving-focus": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-navigation-menu@workspace:packages/react/navigation-menu":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-navigation-menu@workspace:packages/react/navigation-menu"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-collection": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-dismissable-layer": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-    "@implydata/radix-react-use-previous": "workspace:*"
-    "@implydata/radix-react-visually-hidden": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-popover@workspace:packages/react/popover":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-popover@workspace:packages/react/popover"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-dismissable-layer": "workspace:*"
-    "@implydata/radix-react-focus-guards": "workspace:*"
-    "@implydata/radix-react-focus-scope": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-popper": "workspace:*"
-    "@implydata/radix-react-portal": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-slot": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    aria-hidden: "npm:^1.1.1"
-    react-remove-scroll: "npm:2.5.7"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-popper@npm:1.2.0":
-  version: 1.2.0
-  resolution: "@implydata/radix-react-popper@npm:1.2.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@floating-ui/react-dom": "npm:^1.3.0"
-    "@implydata/radix-react-arrow": "npm:1.1.0"
-    "@implydata/radix-react-compose-refs": "npm:1.1.0"
-    "@implydata/radix-react-context": "npm:1.1.0"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-    "@implydata/radix-react-use-callback-ref": "npm:1.1.0"
-    "@implydata/radix-react-use-layout-effect": "npm:1.1.0"
-    "@implydata/radix-react-use-rect": "npm:1.1.0"
-    "@implydata/radix-react-use-size": "npm:1.1.0"
-    "@implydata/radix-rect": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/e660bf72a1050163172729133ccbb44a311de9e236272acd6bf668fa3e7f099f5f75a132d02812677082265587f38008fd4ed8a7bf57ad28e6553bfcf91564b1
-  languageName: node
-  linkType: hard
-
 "@implydata/radix-react-popper@workspace:*, @implydata/radix-react-popper@workspace:packages/react/popper":
   version: 0.0.0-use.local
   resolution: "@implydata/radix-react-popper@workspace:packages/react/popper"
   dependencies:
     "@babel/runtime": "npm:^7.13.10"
     "@floating-ui/react-dom": "npm:^2.0.0"
-    "@implydata/radix-react-arrow": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-    "@implydata/radix-react-use-rect": "workspace:*"
-    "@implydata/radix-react-use-size": "workspace:*"
-    "@implydata/radix-rect": "workspace:*"
+    "@radix-ui/react-arrow": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+    "@radix-ui/react-use-rect": "workspace:*"
+    "@radix-ui/react-use-size": "workspace:*"
+    "@radix-ui/rect": "workspace:*"
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -3992,845 +3160,6 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-portal@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-portal@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/71c9c4e7b9368e7a9ad8c85182ffe9096a0347b56e3ae09a3adec7f3490033394e108e3c2fa44b6dd8d9382fae54f8c4f6b718a765654ae7b868648332bd63c5
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-portal@workspace:*, @implydata/radix-react-portal@workspace:packages/react/portal":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-portal@workspace:packages/react/portal"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-presence@workspace:*, @implydata/radix-react-presence@workspace:packages/react/presence":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-presence@workspace:packages/react/presence"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-primitive@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-primitive@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-slot": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/666fe81a05b0189bd946ae2c158630802d3fe72bfefc4419c2f39266bfc8169d1946afe133430cef305ba84b353c0f9a3d026df52d1f886e538f48b92457d993
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-primitive@workspace:*, @implydata/radix-react-primitive@workspace:packages/react/primitive":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-primitive@workspace:packages/react/primitive"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-slot": "workspace:*"
-    "@testing-library/react": "npm:^10.4.8"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-progress@workspace:packages/react/progress":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-progress@workspace:packages/react/progress"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-radio-group@workspace:packages/react/radio-group":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-radio-group@workspace:packages/react/radio-group"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-roving-focus": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    "@implydata/radix-react-use-previous": "workspace:*"
-    "@implydata/radix-react-use-size": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-roving-focus@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-roving-focus@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "npm:1.1.0"
-    "@implydata/radix-react-collection": "npm:1.1.0"
-    "@implydata/radix-react-compose-refs": "npm:1.1.0"
-    "@implydata/radix-react-context": "npm:1.1.0"
-    "@implydata/radix-react-direction": "npm:1.1.0"
-    "@implydata/radix-react-id": "npm:1.1.0"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-    "@implydata/radix-react-use-callback-ref": "npm:1.1.0"
-    "@implydata/radix-react-use-controllable-state": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/72b5f8013ad77abc4ecfe5136109ea70ab1d494980dd660faa85ae4baa17ca7a173a5d8875fa63c9dceb99a5905f8c5dcbe0ccfd7268f31dad050cac9c6cf5f6
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-roving-focus@workspace:*, @implydata/radix-react-roving-focus@workspace:packages/react/roving-focus":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-roving-focus@workspace:packages/react/roving-focus"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-collection": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-scroll-area@workspace:packages/react/scroll-area":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-scroll-area@workspace:packages/react/scroll-area"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-number": "workspace:*"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-    "@types/resize-observer-browser": "npm:^0.1.4"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-select@npm:^1.2.2":
-  version: 1.3.0
-  resolution: "@implydata/radix-react-select@npm:1.3.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-number": "npm:1.1.0"
-    "@implydata/radix-primitive": "npm:1.1.0"
-    "@implydata/radix-react-collection": "npm:1.1.0"
-    "@implydata/radix-react-compose-refs": "npm:1.1.0"
-    "@implydata/radix-react-context": "npm:1.1.0"
-    "@implydata/radix-react-direction": "npm:1.1.0"
-    "@implydata/radix-react-dismissable-layer": "npm:1.1.0"
-    "@implydata/radix-react-focus-guards": "npm:1.1.0"
-    "@implydata/radix-react-focus-scope": "npm:1.1.0"
-    "@implydata/radix-react-id": "npm:1.1.0"
-    "@implydata/radix-react-popper": "npm:1.2.0"
-    "@implydata/radix-react-portal": "npm:1.1.0"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-    "@implydata/radix-react-slot": "npm:1.1.0"
-    "@implydata/radix-react-use-callback-ref": "npm:1.1.0"
-    "@implydata/radix-react-use-controllable-state": "npm:1.1.0"
-    "@implydata/radix-react-use-layout-effect": "npm:1.1.0"
-    "@implydata/radix-react-use-previous": "npm:1.1.0"
-    "@implydata/radix-react-visually-hidden": "npm:1.1.0"
-    aria-hidden: "npm:^1.1.1"
-    react-remove-scroll: "npm:2.5.5"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/3de80adecc1f836c9d66789eb55c610c24a10161bb140e0e381e8aff430e536e686ec68274a6ee442f8a7ba703ed3427c33d764acd8eb49b95cbba5ad60a3ad1
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-select@workspace:packages/react/select":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-select@workspace:packages/react/select"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-number": "workspace:*"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-collection": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-dismissable-layer": "workspace:*"
-    "@implydata/radix-react-focus-guards": "workspace:*"
-    "@implydata/radix-react-focus-scope": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-popper": "workspace:*"
-    "@implydata/radix-react-portal": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-slot": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-    "@implydata/radix-react-use-previous": "workspace:*"
-    "@implydata/radix-react-visually-hidden": "workspace:*"
-    aria-hidden: "npm:^1.1.1"
-    react-remove-scroll: "npm:2.5.7"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-separator@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-separator@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/48109afade760d143c88f4070be67193ff026aa1ab3085eba6cd43d54b4648e3e04318fc22b26acf8ca56272d0b193c4aec44204abd4e32d0df63c4be34ea0a4
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-separator@workspace:*, @implydata/radix-react-separator@workspace:packages/react/separator":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-separator@workspace:packages/react/separator"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-slider@workspace:packages/react/slider":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-slider@workspace:packages/react/slider"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-number": "workspace:*"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-collection": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-    "@implydata/radix-react-use-previous": "workspace:*"
-    "@implydata/radix-react-use-size": "workspace:*"
-    "@types/form-serialize": "npm:^0"
-    form-serialize: "npm:^0.7.2"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-slot@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-slot@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-compose-refs": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/446f5c9875f787b37cb2f0666b41bd430648c73fafdad74ae5b8679c860438c0a601c3e07a9bddc368f3b518aa6429d3b707310a4af6e29af14baadd00976099
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-slot@workspace:*, @implydata/radix-react-slot@workspace:packages/react/slot":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-slot@workspace:packages/react/slot"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-switch@workspace:packages/react/switch":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-switch@workspace:packages/react/switch"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    "@implydata/radix-react-use-previous": "workspace:*"
-    "@implydata/radix-react-use-size": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-tabs@workspace:packages/react/tabs":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-tabs@workspace:packages/react/tabs"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-roving-focus": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-toast@workspace:packages/react/toast":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-toast@workspace:packages/react/toast"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-collection": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-dismissable-layer": "workspace:*"
-    "@implydata/radix-react-portal": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-    "@implydata/radix-react-visually-hidden": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-toggle-group@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-toggle-group@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "npm:1.1.0"
-    "@implydata/radix-react-context": "npm:1.1.0"
-    "@implydata/radix-react-direction": "npm:1.1.0"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-    "@implydata/radix-react-roving-focus": "npm:1.1.0"
-    "@implydata/radix-react-toggle": "npm:1.1.0"
-    "@implydata/radix-react-use-controllable-state": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/6175260173ba3114696d0c3b651d172b82d24e74b63bc59b3b16a43c6a63e49b9f51c67d37affeedf246d215f86dbc41c37f701e5d4b6e9826d3249e27e7efc6
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-toggle-group@workspace:*, @implydata/radix-react-toggle-group@workspace:packages/react/toggle-group":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-toggle-group@workspace:packages/react/toggle-group"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-roving-focus": "workspace:*"
-    "@implydata/radix-react-toggle": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-toggle@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-toggle@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "npm:1.1.0"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-    "@implydata/radix-react-use-controllable-state": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/30beb269b8ce48dc627790b5e38b6e8be23f55b3f480e094fbc718e786a822fefc6cafd571791ad0997101c0d91b57e7363dfa9cefa04776eb8c1bf43dda9f56
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-toggle@workspace:*, @implydata/radix-react-toggle@workspace:packages/react/toggle":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-toggle@workspace:packages/react/toggle"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-toolbar@npm:^1.0.4":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-toolbar@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "npm:1.1.0"
-    "@implydata/radix-react-context": "npm:1.1.0"
-    "@implydata/radix-react-direction": "npm:1.1.0"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-    "@implydata/radix-react-roving-focus": "npm:1.1.0"
-    "@implydata/radix-react-separator": "npm:1.1.0"
-    "@implydata/radix-react-toggle-group": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/7ae8c3e0bea7b6a72d161d0b103d728684bead5f5f6b8c9faa245dfe64fcd9935ccd6f4d389652cc072900fa89d78ea41b109bdaee0504b76194d9e785b3f23a
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-toolbar@workspace:packages/react/toolbar":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-toolbar@workspace:packages/react/toolbar"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-direction": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-roving-focus": "workspace:*"
-    "@implydata/radix-react-separator": "workspace:*"
-    "@implydata/radix-react-toggle-group": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-tooltip@workspace:packages/react/tooltip":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-tooltip@workspace:packages/react/tooltip"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-primitive": "workspace:*"
-    "@implydata/radix-react-compose-refs": "workspace:*"
-    "@implydata/radix-react-context": "workspace:*"
-    "@implydata/radix-react-dismissable-layer": "workspace:*"
-    "@implydata/radix-react-id": "workspace:*"
-    "@implydata/radix-react-popper": "workspace:*"
-    "@implydata/radix-react-portal": "workspace:*"
-    "@implydata/radix-react-presence": "workspace:*"
-    "@implydata/radix-react-primitive": "workspace:*"
-    "@implydata/radix-react-slot": "workspace:*"
-    "@implydata/radix-react-use-controllable-state": "workspace:*"
-    "@implydata/radix-react-visually-hidden": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-use-callback-ref@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-use-callback-ref@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/ca752d38e13bbaee114f3296adb12090710135f37354a2ebe5028f5e5562ef768c4d53fa1cec73ef7f9581c1e09910f2284f471bf981a500275bfed766193f00
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-use-callback-ref@workspace:*, @implydata/radix-react-use-callback-ref@workspace:packages/react/use-callback-ref":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-use-callback-ref@workspace:packages/react/use-callback-ref"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-use-controllable-state@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-use-controllable-state@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-use-callback-ref": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/2882ceec23bddb5bd85bacf41764ecf88ffee3c9e1a22466b09e1ca752cfac387466deb4383913d5637f3531042b4311c95c0b244306b3965f0519bbe7882465
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-use-controllable-state@workspace:*, @implydata/radix-react-use-controllable-state@workspace:packages/react/use-controllable-state":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-use-controllable-state@workspace:packages/react/use-controllable-state"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-use-escape-keydown@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-use-escape-keydown@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-use-callback-ref": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/2bd8d644a3f810f1d329867b5c9b311dd6ac920eaa1c97dad24c087f6f0248ea8fafa152803c8fcd2c54746fed43df33305fa1d7c7b47d297ad416abf4c106de
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-use-escape-keydown@workspace:*, @implydata/radix-react-use-escape-keydown@workspace:packages/react/use-escape-keydown":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-use-escape-keydown@workspace:packages/react/use-escape-keydown"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-use-callback-ref": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-use-layout-effect@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-use-layout-effect@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/664b2ed6710a7d16939803f1426b353f94b4a8d11bba640fd63829ac857a1885657f00e12ab39e89bcc9f978e573f7037b6ebaeff042ce40be62c9c1af349c6d
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-use-layout-effect@workspace:*, @implydata/radix-react-use-layout-effect@workspace:packages/react/use-layout-effect":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-use-layout-effect@workspace:packages/react/use-layout-effect"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-use-previous@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-use-previous@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/812bca578916029b8a58d8f1a943c2670c278c13de4d38e697bd20de037f8e63cc78eff14c346aa2112a2cc6b1c292969edf13c4a29c899c60efc42d9878d8eb
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-use-previous@workspace:*, @implydata/radix-react-use-previous@workspace:packages/react/use-previous":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-use-previous@workspace:packages/react/use-previous"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-use-rect@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-use-rect@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-rect": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/fea6f6fa621c7a59f4dac297fb7915d99b6bb5408af437e7caad252d459ee12bc9ebf586d98c8d06fefcf0082990e53d14749c68176d7854e6c662ff4a2992ac
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-use-rect@workspace:*, @implydata/radix-react-use-rect@workspace:packages/react/use-rect":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-use-rect@workspace:packages/react/use-rect"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-rect": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-use-size@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-use-size@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-use-layout-effect": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/7c7bf550c19e40d7d9c206730985519581219631a3146abc7c5002007c4987adfad63f910ee41f624774fd97a61130513bdb584651c2182f3baeb67be6c2b71f
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-use-size@workspace:*, @implydata/radix-react-use-size@workspace:packages/react/use-size":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-use-size@workspace:packages/react/use-size"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-use-layout-effect": "workspace:*"
-    "@types/resize-observer-browser": "npm:^0.1.4"
-  peerDependencies:
-    "@types/react": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-react-visually-hidden@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-react-visually-hidden@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "npm:1.1.0"
-  peerDependencies:
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  checksum: 10/17c3628c285903d9ec92b8a6b03efa8d0e6f151463287414a89e1a5bacd243aff04db02fdff821cc896acf25c427ec9c8e33707d172289e3fcdc976644a8f594
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-react-visually-hidden@workspace:*, @implydata/radix-react-visually-hidden@workspace:packages/react/visually-hidden":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-react-visually-hidden@workspace:packages/react/visually-hidden"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-    "@implydata/radix-react-primitive": "workspace:*"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@implydata/radix-rect@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@implydata/radix-rect@npm:1.1.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
-  checksum: 10/92ca66699856f5c0e247b92c24080bebe61faf42526264f587bd535c23e900fef67f3374f3b30a42470c504d9e052475398af82dfb80e5b2498236b723978631
-  languageName: node
-  linkType: hard
-
-"@implydata/radix-rect@workspace:*, @implydata/radix-rect@workspace:packages/core/rect":
-  version: 0.0.0-use.local
-  resolution: "@implydata/radix-rect@workspace:packages/core/rect"
-  dependencies:
-    "@babel/runtime": "npm:^7.13.10"
   languageName: unknown
   linkType: soft
 
@@ -6234,6 +4563,1452 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@radix-ui/number@npm:1.0.1, @radix-ui/number@workspace:*, @radix-ui/number@workspace:packages/core/number":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/number@workspace:packages/core/number"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/primitive@npm:1.0.1, @radix-ui/primitive@workspace:*, @radix-ui/primitive@workspace:packages/core/primitive":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/primitive@workspace:packages/core/primitive"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-accessible-icon@workspace:packages/react/accessible-icon":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-accessible-icon@workspace:packages/react/accessible-icon"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-visually-hidden": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-accordion@workspace:packages/react/accordion":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-accordion@workspace:packages/react/accordion"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-collapsible": "workspace:*"
+    "@radix-ui/react-collection": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-alert-dialog@workspace:packages/react/alert-dialog":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-alert-dialog@workspace:packages/react/alert-dialog"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-dialog": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-slot": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-announce@workspace:packages/react/announce":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-announce@workspace:packages/react/announce"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-arrow@npm:1.0.3, @radix-ui/react-arrow@workspace:*, @radix-ui/react-arrow@workspace:packages/react/arrow":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-arrow@workspace:packages/react/arrow"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-primitive": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-aspect-ratio@workspace:packages/react/aspect-ratio":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-aspect-ratio@workspace:packages/react/aspect-ratio"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-primitive": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-avatar@workspace:packages/react/avatar":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-avatar@workspace:packages/react/avatar"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-checkbox@workspace:packages/react/checkbox":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-checkbox@workspace:packages/react/checkbox"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@radix-ui/react-use-previous": "workspace:*"
+    "@radix-ui/react-use-size": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-collapsible@workspace:*, @radix-ui/react-collapsible@workspace:packages/react/collapsible":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-collapsible@workspace:packages/react/collapsible"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-collection@npm:1.0.3, @radix-ui/react-collection@workspace:*, @radix-ui/react-collection@workspace:packages/react/collection":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-collection@workspace:packages/react/collection"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-slot": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-compose-refs@npm:1.0.1, @radix-ui/react-compose-refs@workspace:*, @radix-ui/react-compose-refs@workspace:packages/react/compose-refs":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-compose-refs@workspace:packages/react/compose-refs"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-context-menu@workspace:packages/react/context-menu":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-context-menu@workspace:packages/react/context-menu"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-menu": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-context@npm:1.0.1, @radix-ui/react-context@workspace:*, @radix-ui/react-context@workspace:packages/react/context":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-context@workspace:packages/react/context"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-dialog@workspace:*, @radix-ui/react-dialog@workspace:packages/react/dialog":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-dialog@workspace:packages/react/dialog"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-dismissable-layer": "workspace:*"
+    "@radix-ui/react-focus-guards": "workspace:*"
+    "@radix-ui/react-focus-scope": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-portal": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-slot": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    aria-hidden: "npm:^1.1.1"
+    react-remove-scroll: "npm:2.5.7"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-direction@npm:1.0.1, @radix-ui/react-direction@workspace:*, @radix-ui/react-direction@workspace:packages/react/direction":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-direction@workspace:packages/react/direction"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-dismissable-layer@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@radix-ui/react-dismissable-layer@npm:1.0.4"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "npm:1.0.1"
+    "@radix-ui/react-compose-refs": "npm:1.0.1"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+    "@radix-ui/react-use-callback-ref": "npm:1.0.1"
+    "@radix-ui/react-use-escape-keydown": "npm:1.0.3"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10/bcc14f0704fdc19430a2b922106a278e64401decffd6e47f427aa5de2d63367ba3e848b012c464a6b39a6e057060e41ad16964385941735a329e319cea46711a
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-dismissable-layer@workspace:*, @radix-ui/react-dismissable-layer@workspace:packages/react/dismissable-layer":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-dismissable-layer@workspace:packages/react/dismissable-layer"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-escape-keydown": "workspace:*"
+    react-remove-scroll: "npm:2.5.7"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-dropdown-menu@workspace:packages/react/dropdown-menu":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-dropdown-menu@workspace:packages/react/dropdown-menu"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-menu": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-focus-guards@npm:1.0.1, @radix-ui/react-focus-guards@workspace:*, @radix-ui/react-focus-guards@workspace:packages/react/focus-guards":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-focus-guards@workspace:packages/react/focus-guards"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-focus-scope@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@radix-ui/react-focus-scope@npm:1.0.3"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-compose-refs": "npm:1.0.1"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+    "@radix-ui/react-use-callback-ref": "npm:1.0.1"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10/d62631cc06a2f37d483d106f3732ffc00831498fc2306df51c675d7cdb9727169512a1ca43ce06d1bfd578e8d8d67a80858c7531579bacaf6079d3aaf0ca8663
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-focus-scope@workspace:*, @radix-ui/react-focus-scope@workspace:packages/react/focus-scope":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-focus-scope@workspace:packages/react/focus-scope"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-form@workspace:packages/react/form":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-form@workspace:packages/react/form"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-label": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-hover-card@workspace:packages/react/hover-card":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-hover-card@workspace:packages/react/hover-card"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@implydata/radix-react-popper": "workspace:*"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-dismissable-layer": "workspace:*"
+    "@radix-ui/react-portal": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-id@npm:1.0.1, @radix-ui/react-id@workspace:*, @radix-ui/react-id@workspace:packages/react/id":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-id@workspace:packages/react/id"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-label@workspace:*, @radix-ui/react-label@workspace:packages/react/label":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-label@workspace:packages/react/label"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-primitive": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-menu@workspace:*, @radix-ui/react-menu@workspace:packages/react/menu":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-menu@workspace:packages/react/menu"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@implydata/radix-react-popper": "workspace:*"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-collection": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-dismissable-layer": "workspace:*"
+    "@radix-ui/react-focus-guards": "workspace:*"
+    "@radix-ui/react-focus-scope": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-portal": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-roving-focus": "workspace:*"
+    "@radix-ui/react-slot": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    aria-hidden: "npm:^1.1.1"
+    react-remove-scroll: "npm:2.5.7"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-menubar@workspace:packages/react/menubar":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-menubar@workspace:packages/react/menubar"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-collection": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-menu": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-roving-focus": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-navigation-menu@workspace:packages/react/navigation-menu":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-navigation-menu@workspace:packages/react/navigation-menu"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-collection": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-dismissable-layer": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+    "@radix-ui/react-use-previous": "workspace:*"
+    "@radix-ui/react-visually-hidden": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-popover@workspace:packages/react/popover":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-popover@workspace:packages/react/popover"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@implydata/radix-react-popper": "workspace:*"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-dismissable-layer": "workspace:*"
+    "@radix-ui/react-focus-guards": "workspace:*"
+    "@radix-ui/react-focus-scope": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-portal": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-slot": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    aria-hidden: "npm:^1.1.1"
+    react-remove-scroll: "npm:2.5.7"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-popper@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@radix-ui/react-popper@npm:1.1.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@floating-ui/react-dom": "npm:^2.0.0"
+    "@radix-ui/react-arrow": "npm:1.0.3"
+    "@radix-ui/react-compose-refs": "npm:1.0.1"
+    "@radix-ui/react-context": "npm:1.0.1"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+    "@radix-ui/react-use-callback-ref": "npm:1.0.1"
+    "@radix-ui/react-use-layout-effect": "npm:1.0.1"
+    "@radix-ui/react-use-rect": "npm:1.0.1"
+    "@radix-ui/react-use-size": "npm:1.0.1"
+    "@radix-ui/rect": "npm:1.0.1"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10/be32677e846ef93e8cbf219550e55b99583cb927b572a9ee466b0c242156d42ddc70f43135e22acffe48bba4cd3fe28888cc3f929947e078d8732bee958df4c4
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-portal@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@radix-ui/react-portal@npm:1.0.3"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10/d352bcd6ad65eb43c9e0d72d0755c2aae85e03fb287770866262be3a2d5302b2885aee3cd99f2bbf62ecd14fcb1460703f1dcdc40351f77ad887b931c6f0012a
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-portal@workspace:*, @radix-ui/react-portal@workspace:packages/react/portal":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-portal@workspace:packages/react/portal"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-primitive": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-presence@workspace:*, @radix-ui/react-presence@workspace:packages/react/presence":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-presence@workspace:packages/react/presence"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-primitive@npm:1.0.3, @radix-ui/react-primitive@workspace:*, @radix-ui/react-primitive@workspace:packages/react/primitive":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-primitive@workspace:packages/react/primitive"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-slot": "workspace:*"
+    "@testing-library/react": "npm:^10.4.8"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-progress@workspace:packages/react/progress":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-progress@workspace:packages/react/progress"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-radio-group@workspace:packages/react/radio-group":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-radio-group@workspace:packages/react/radio-group"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-roving-focus": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@radix-ui/react-use-previous": "workspace:*"
+    "@radix-ui/react-use-size": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-roving-focus@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@radix-ui/react-roving-focus@npm:1.0.4"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "npm:1.0.1"
+    "@radix-ui/react-collection": "npm:1.0.3"
+    "@radix-ui/react-compose-refs": "npm:1.0.1"
+    "@radix-ui/react-context": "npm:1.0.1"
+    "@radix-ui/react-direction": "npm:1.0.1"
+    "@radix-ui/react-id": "npm:1.0.1"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+    "@radix-ui/react-use-callback-ref": "npm:1.0.1"
+    "@radix-ui/react-use-controllable-state": "npm:1.0.1"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10/a23ffb1e3e29a8209b94ce3857bf559dcf2175c4f316169dc47d018e8e94cd018dc914331a1d1762f32448e2594b7c8945efaa7059056f9940ce92cc35cc7026
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-roving-focus@workspace:*, @radix-ui/react-roving-focus@workspace:packages/react/roving-focus":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-roving-focus@workspace:packages/react/roving-focus"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-collection": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-scroll-area@workspace:packages/react/scroll-area":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-scroll-area@workspace:packages/react/scroll-area"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/number": "workspace:*"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+    "@types/resize-observer-browser": "npm:^0.1.4"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-select@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "@radix-ui/react-select@npm:1.2.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/number": "npm:1.0.1"
+    "@radix-ui/primitive": "npm:1.0.1"
+    "@radix-ui/react-collection": "npm:1.0.3"
+    "@radix-ui/react-compose-refs": "npm:1.0.1"
+    "@radix-ui/react-context": "npm:1.0.1"
+    "@radix-ui/react-direction": "npm:1.0.1"
+    "@radix-ui/react-dismissable-layer": "npm:1.0.4"
+    "@radix-ui/react-focus-guards": "npm:1.0.1"
+    "@radix-ui/react-focus-scope": "npm:1.0.3"
+    "@radix-ui/react-id": "npm:1.0.1"
+    "@radix-ui/react-popper": "npm:1.1.2"
+    "@radix-ui/react-portal": "npm:1.0.3"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+    "@radix-ui/react-slot": "npm:1.0.2"
+    "@radix-ui/react-use-callback-ref": "npm:1.0.1"
+    "@radix-ui/react-use-controllable-state": "npm:1.0.1"
+    "@radix-ui/react-use-layout-effect": "npm:1.0.1"
+    "@radix-ui/react-use-previous": "npm:1.0.1"
+    "@radix-ui/react-visually-hidden": "npm:1.0.3"
+    aria-hidden: "npm:^1.1.1"
+    react-remove-scroll: "npm:2.5.5"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10/4d7b6d9d988f78764783a4b2fd6523457ff735436829e122dae824bdea4f2835ad0150dfc060517d6c29d953ef61ee12d7ce10cf160593e56967e528bf6f8ee5
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-select@workspace:packages/react/select":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-select@workspace:packages/react/select"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@implydata/radix-react-popper": "workspace:*"
+    "@radix-ui/number": "workspace:*"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-collection": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-dismissable-layer": "workspace:*"
+    "@radix-ui/react-focus-guards": "workspace:*"
+    "@radix-ui/react-focus-scope": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-portal": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-slot": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+    "@radix-ui/react-use-previous": "workspace:*"
+    "@radix-ui/react-visually-hidden": "workspace:*"
+    aria-hidden: "npm:^1.1.1"
+    react-remove-scroll: "npm:2.5.7"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-separator@npm:1.0.3, @radix-ui/react-separator@workspace:*, @radix-ui/react-separator@workspace:packages/react/separator":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-separator@workspace:packages/react/separator"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-primitive": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-slider@workspace:packages/react/slider":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-slider@workspace:packages/react/slider"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/number": "workspace:*"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-collection": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+    "@radix-ui/react-use-previous": "workspace:*"
+    "@radix-ui/react-use-size": "workspace:*"
+    "@types/form-serialize": "npm:^0"
+    form-serialize: "npm:^0.7.2"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-slot@npm:1.0.2, @radix-ui/react-slot@workspace:*, @radix-ui/react-slot@workspace:packages/react/slot":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-slot@workspace:packages/react/slot"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-compose-refs": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-switch@workspace:packages/react/switch":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-switch@workspace:packages/react/switch"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@radix-ui/react-use-previous": "workspace:*"
+    "@radix-ui/react-use-size": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-tabs@workspace:packages/react/tabs":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-tabs@workspace:packages/react/tabs"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-roving-focus": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-toast@workspace:packages/react/toast":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-toast@workspace:packages/react/toast"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-collection": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-dismissable-layer": "workspace:*"
+    "@radix-ui/react-portal": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+    "@radix-ui/react-visually-hidden": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-toggle-group@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@radix-ui/react-toggle-group@npm:1.0.4"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "npm:1.0.1"
+    "@radix-ui/react-context": "npm:1.0.1"
+    "@radix-ui/react-direction": "npm:1.0.1"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+    "@radix-ui/react-roving-focus": "npm:1.0.4"
+    "@radix-ui/react-toggle": "npm:1.0.3"
+    "@radix-ui/react-use-controllable-state": "npm:1.0.1"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10/96ea35f0e959399f239ff3b75dcad72d5880c66966114c80293ab1450801c87353c0cb2a7a4a5e9825f43c9bd3d881f312a9c14bdacfa70f4050d406bec98c2b
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-toggle-group@workspace:*, @radix-ui/react-toggle-group@workspace:packages/react/toggle-group":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-toggle-group@workspace:packages/react/toggle-group"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-roving-focus": "workspace:*"
+    "@radix-ui/react-toggle": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-toggle@npm:1.0.3, @radix-ui/react-toggle@workspace:*, @radix-ui/react-toggle@workspace:packages/react/toggle":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-toggle@workspace:packages/react/toggle"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-toolbar@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@radix-ui/react-toolbar@npm:1.0.4"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "npm:1.0.1"
+    "@radix-ui/react-context": "npm:1.0.1"
+    "@radix-ui/react-direction": "npm:1.0.1"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+    "@radix-ui/react-roving-focus": "npm:1.0.4"
+    "@radix-ui/react-separator": "npm:1.0.3"
+    "@radix-ui/react-toggle-group": "npm:1.0.4"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10/57f75b6617d4e2bb8f7782d6065e70fd0db44038588b3e8e5f8cd1101dc2c94744bd52b9c011c7b722cb5f9ca96d21fc78ee7caac07722894453019fd5ade3b0
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-toolbar@workspace:packages/react/toolbar":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-toolbar@workspace:packages/react/toolbar"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-direction": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-roving-focus": "workspace:*"
+    "@radix-ui/react-separator": "workspace:*"
+    "@radix-ui/react-toggle-group": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-tooltip@workspace:packages/react/tooltip":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-tooltip@workspace:packages/react/tooltip"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@implydata/radix-react-popper": "workspace:*"
+    "@radix-ui/primitive": "workspace:*"
+    "@radix-ui/react-compose-refs": "workspace:*"
+    "@radix-ui/react-context": "workspace:*"
+    "@radix-ui/react-dismissable-layer": "workspace:*"
+    "@radix-ui/react-id": "workspace:*"
+    "@radix-ui/react-portal": "workspace:*"
+    "@radix-ui/react-presence": "workspace:*"
+    "@radix-ui/react-primitive": "workspace:*"
+    "@radix-ui/react-slot": "workspace:*"
+    "@radix-ui/react-use-controllable-state": "workspace:*"
+    "@radix-ui/react-visually-hidden": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-use-callback-ref@npm:1.0.1, @radix-ui/react-use-callback-ref@workspace:*, @radix-ui/react-use-callback-ref@workspace:packages/react/use-callback-ref":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-use-callback-ref@workspace:packages/react/use-callback-ref"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-use-controllable-state@npm:1.0.1, @radix-ui/react-use-controllable-state@workspace:*, @radix-ui/react-use-controllable-state@workspace:packages/react/use-controllable-state":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-use-controllable-state@workspace:packages/react/use-controllable-state"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-use-escape-keydown@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@radix-ui/react-use-escape-keydown@npm:1.0.3"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-use-callback-ref": "npm:1.0.1"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10/c6ed0d9ce780f67f924980eb305af1f6cce2a8acbaf043a58abe0aa3cc551d9aa76ccee14531df89bbee302ead7ecc7fce330886f82d4672c5eda52f357ef9b8
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-use-escape-keydown@workspace:*, @radix-ui/react-use-escape-keydown@workspace:packages/react/use-escape-keydown":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-use-escape-keydown@workspace:packages/react/use-escape-keydown"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-use-callback-ref": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-use-layout-effect@npm:1.0.1, @radix-ui/react-use-layout-effect@workspace:*, @radix-ui/react-use-layout-effect@workspace:packages/react/use-layout-effect":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-use-layout-effect@workspace:packages/react/use-layout-effect"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-use-previous@npm:1.0.1, @radix-ui/react-use-previous@workspace:*, @radix-ui/react-use-previous@workspace:packages/react/use-previous":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-use-previous@workspace:packages/react/use-previous"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-use-rect@npm:1.0.1, @radix-ui/react-use-rect@workspace:*, @radix-ui/react-use-rect@workspace:packages/react/use-rect":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-use-rect@workspace:packages/react/use-rect"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/rect": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-use-size@npm:1.0.1, @radix-ui/react-use-size@workspace:*, @radix-ui/react-use-size@workspace:packages/react/use-size":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-use-size@workspace:packages/react/use-size"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-use-layout-effect": "workspace:*"
+    "@types/resize-observer-browser": "npm:^0.1.4"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/react-visually-hidden@npm:1.0.3, @radix-ui/react-visually-hidden@workspace:*, @radix-ui/react-visually-hidden@workspace:packages/react/visually-hidden":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/react-visually-hidden@workspace:packages/react/visually-hidden"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-primitive": "workspace:*"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@radix-ui/rect@npm:1.0.1, @radix-ui/rect@workspace:*, @radix-ui/rect@workspace:packages/core/rect":
+  version: 0.0.0-use.local
+  resolution: "@radix-ui/rect@workspace:packages/core/rect"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  languageName: unknown
+  linkType: soft
+
 "@sideway/address@npm:^4.1.3":
   version: 4.1.4
   resolution: "@sideway/address@npm:4.1.4"
@@ -6643,8 +6418,8 @@ __metadata:
   version: 7.6.17
   resolution: "@storybook/components@npm:7.6.17"
   dependencies:
-    "@implydata/radix-react-select": "npm:^1.2.2"
-    "@implydata/radix-react-toolbar": "npm:^1.0.4"
+    "@radix-ui/react-select": "npm:^1.2.2"
+    "@radix-ui/react-toolbar": "npm:^1.0.4"
     "@storybook/client-logger": "npm:7.6.17"
     "@storybook/csf": "npm:^0.1.2"
     "@storybook/global": "npm:^5.0.0"

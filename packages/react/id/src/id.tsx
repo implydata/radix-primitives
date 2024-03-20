@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useLayoutEffect } from '@implydata/radix-react-use-layout-effect';
+import { useLayoutEffect } from '@radix-ui/react-use-layout-effect';
 
 // We `toString()` to prevent bundlers from trying to `import { useId } from 'react';`
 const useReactId = (React as any)['useId'.toString()] || (() => undefined);

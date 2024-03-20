@@ -1,5 +1,5 @@
 {
-  "name": "@implydata/radix-react-slider",
+  "name": "@radix-ui/react-slider",
   "version": "1.2.0-rc.2",
   "license": "MIT",
   "exports": {
@@ -29,17 +29,17 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "@implydata/radix-number": "workspace:*",
-    "@implydata/radix-primitive": "workspace:*",
-    "@implydata/radix-react-collection": "workspace:*",
-    "@implydata/radix-react-compose-refs": "workspace:*",
-    "@implydata/radix-react-context": "workspace:*",
-    "@implydata/radix-react-direction": "workspace:*",
-    "@implydata/radix-react-primitive": "workspace:*",
-    "@implydata/radix-react-use-controllable-state": "workspace:*",
-    "@implydata/radix-react-use-layout-effect": "workspace:*",
-    "@implydata/radix-react-use-previous": "workspace:*",
-    "@implydata/radix-react-use-size": "workspace:*"
+    "@radix-ui/number": "workspace:*",
+    "@radix-ui/primitive": "workspace:*",
+    "@radix-ui/react-collection": "workspace:*",
+    "@radix-ui/react-compose-refs": "workspace:*",
+    "@radix-ui/react-context": "workspace:*",
+    "@radix-ui/react-direction": "workspace:*",
+    "@radix-ui/react-primitive": "workspace:*",
+    "@radix-ui/react-use-controllable-state": "workspace:*",
+    "@radix-ui/react-use-layout-effect": "workspace:*",
+    "@radix-ui/react-use-previous": "workspace:*",
+    "@radix-ui/react-use-size": "workspace:*"
   },
   "devDependencies": {
     "@types/form-serialize": "^0",

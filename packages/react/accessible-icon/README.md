@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-accessible-icon
+$ yarn add @radix-ui/react-accessible-icon
 # or
-$ npm install @implydata/radix-react-accessible-icon
+$ npm install @radix-ui/react-accessible-icon
 ```
 
 ## Usage

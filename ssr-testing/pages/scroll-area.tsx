@@ -5,7 +5,7 @@ import {
   Scrollbar,
   ScrollAreaCorner,
   ScrollAreaThumb,
-} from '@implydata/radix-react-scroll-area';
+} from '@radix-ui/react-scroll-area';
 
 export default function ScrollAreaPage() {
   return (

@@ -1,20 +1,20 @@
 import * as React from 'react';
-import { composeEventHandlers } from '@implydata/radix-primitive';
-import { useComposedRefs } from '@implydata/radix-react-compose-refs';
-import { createContextScope } from '@implydata/radix-react-context';
-import { DismissableLayer } from '@implydata/radix-react-dismissable-layer';
-import { useId } from '@implydata/radix-react-id';
+import { composeEventHandlers } from '@radix-ui/primitive';
+import { useComposedRefs } from '@radix-ui/react-compose-refs';
+import { createContextScope } from '@radix-ui/react-context';
+import { DismissableLayer } from '@radix-ui/react-dismissable-layer';
+import { useId } from '@radix-ui/react-id';
 import * as PopperPrimitive from '@implydata/radix-react-popper';
 import { createPopperScope } from '@implydata/radix-react-popper';
-import { Portal as PortalPrimitive } from '@implydata/radix-react-portal';
-import { Presence } from '@implydata/radix-react-presence';
-import { Primitive } from '@implydata/radix-react-primitive';
-import { Slottable } from '@implydata/radix-react-slot';
-import { useControllableState } from '@implydata/radix-react-use-controllable-state';
-import * as VisuallyHiddenPrimitive from '@implydata/radix-react-visually-hidden';
+import { Portal as PortalPrimitive } from '@radix-ui/react-portal';
+import { Presence } from '@radix-ui/react-presence';
+import { Primitive } from '@radix-ui/react-primitive';
+import { Slottable } from '@radix-ui/react-slot';
+import { useControllableState } from '@radix-ui/react-use-controllable-state';
+import * as VisuallyHiddenPrimitive from '@radix-ui/react-visually-hidden';
 
-import type * as Radix from '@implydata/radix-react-primitive';
-import type { Scope } from '@implydata/radix-react-context';
+import type * as Radix from '@radix-ui/react-primitive';
+import type { Scope } from '@radix-ui/react-context';
 
 type ScopedProps<P = {}> = P & { __scopeTooltip?: Scope };
 const [createTooltipContext, createTooltipScope] = createContextScope('Tooltip', [

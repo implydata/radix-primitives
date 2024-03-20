@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-collapsible
+$ yarn add @radix-ui/react-collapsible
 # or
-$ npm install @implydata/radix-react-collapsible
+$ npm install @radix-ui/react-collapsible
 ```
 
 ## Usage

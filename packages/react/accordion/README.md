@@ -3,9 +3,9 @@
 ## Installation
 
 ```sh
-$ yarn add @implydata/radix-react-accordion
+$ yarn add @radix-ui/react-accordion
 # or
-$ npm install @implydata/radix-react-accordion
+$ npm install @radix-ui/react-accordion
 ```
 
 ## Usage
