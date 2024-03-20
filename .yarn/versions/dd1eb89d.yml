@@ -1,5 +1,6 @@
 releases:
   "@implydata/radix-react-scroll-area": patch
+  "@implydata/radix-react-select": patch
 
 declined:
   - primitives

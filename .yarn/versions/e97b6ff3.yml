@@ -1,0 +1,5 @@
+releases:
+  "@implydata/radix-react-navigation-menu": patch
+
+declined:
+  - primitives

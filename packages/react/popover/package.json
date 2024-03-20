@@ -1,6 +1,6 @@
 {
   "name": "@implydata/radix-react-popover",
-  "version": "1.0.7-rc.5",
+  "version": "1.0.8-rc.8",
   "license": "MIT",
   "exports": {
     ".": {
@@ -43,7 +43,7 @@
     "@implydata/radix-react-slot": "workspace:*",
     "@implydata/radix-react-use-controllable-state": "workspace:*",
     "aria-hidden": "^1.1.1",
-    "react-remove-scroll": "2.5.5"
+    "react-remove-scroll": "2.5.7"
   },
   "peerDependencies": {
     "@types/react": "*",
@@ -67,5 +67,5 @@
   "bugs": {
     "url": "https://github.com/radix-ui/primitives/issues"
   },
-  "stableVersion": "1.0.6"
+  "stableVersion": "1.0.7"
 }

@@ -1,0 +1,5 @@
+releases:
+  "@implydata/radix-react-slider": minor
+
+declined:
+  - primitives

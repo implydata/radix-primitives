@@ -2,15 +2,17 @@ releases:
   "@implydata/radix-react-alert-dialog": patch
   "@implydata/radix-react-context-menu": patch
   "@implydata/radix-react-dialog": patch
+  "@implydata/radix-react-dismissable-layer": patch
   "@implydata/radix-react-dropdown-menu": patch
   "@implydata/radix-react-hover-card": patch
   "@implydata/radix-react-menu": patch
   "@implydata/radix-react-menubar": patch
+  "@implydata/radix-react-navigation-menu": patch
   "@implydata/radix-react-popover": patch
-  "@implydata/radix-react-portal": patch
   "@implydata/radix-react-select": patch
   "@implydata/radix-react-toast": patch
   "@implydata/radix-react-tooltip": patch
+  "@implydata/radix-react-use-escape-keydown": patch
 
 declined:
   - primitives

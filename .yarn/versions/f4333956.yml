@@ -1,0 +1,13 @@
+releases:
+  "@implydata/radix-react-context-menu": patch
+  "@implydata/radix-react-dropdown-menu": patch
+  "@implydata/radix-react-menu": patch
+  "@implydata/radix-react-menubar": patch
+  "@implydata/radix-react-radio-group": patch
+  "@implydata/radix-react-roving-focus": patch
+  "@implydata/radix-react-tabs": patch
+  "@implydata/radix-react-toggle-group": patch
+  "@implydata/radix-react-toolbar": patch
+
+declined:
+  - primitives
